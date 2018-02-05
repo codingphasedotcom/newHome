@@ -1,0 +1,257 @@
+.content-area.home {
+  background: #1b1b1b;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 44% 28% 28%;
+  // grid-gap: 1px 1px;
+  overflow: hidden;
+
+  .item-a {
+    grid-column: 1/6;
+    background-image: linear-gradient(135deg,rgba(14, 20, 41,.7) 0,rgba(14, 20, 41,.7) 100%),url("/img/davexian.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+
+    h3 {
+      font-size: 1.4rem;
+      position: absolute;
+      bottom: 20px;
+    }
+
+    h4 {
+      font-size: 1rem;
+      position: absolute;
+      bottom: 100px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      position: absolute;
+      bottom: 50px;
+    }
+  }
+
+  .item-b {
+    grid-column: 1/2;
+    background-image: linear-gradient(135deg,rgba(14, 20, 41,.7) 0,rgba(14, 20, 41,.7) 100%),url("https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/RX9eR6VTrKKkdIak3Xmr");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .item-c {
+    grid-column: 2/3;
+    background-image: linear-gradient(135deg,rgba(14, 20, 41,.7) 0,rgba(14, 20, 41,.7) 100%),url("https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/KUH9GZUR5yU0o9Svs7TK");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .item-d {
+    grid-column: 3/4;
+    background: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .item-e {
+    grid-column: 4/5;
+    background-image: linear-gradient(135deg,rgba(14, 20, 41,.7) 0,rgba(14, 20, 41,.7) 100%),url("https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/RX9eR6VTrKKkdIak3Xmr");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .item-f {
+    grid-column: 5/6;
+    background: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .item-g {
+    grid-column: 1/3;
+    background: linear-gradient(135deg,rgba(101, 22, 231,.7) 0,rgba(101, 22, 231,.7) 100%),url("/img/jannia-scholarship.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      font-weight: 900;
+      font-size: 2rem;
+      text-transform: uppercase;
+      color: white;
+      margin-bottom: 1rem;
+    }
+
+    .apply-btn {
+      font-weight: 700;
+      background: $pink;
+      border-radius: 5px;
+      padding: 10px 20px;
+      color: white;
+    }
+  }
+
+  .item-h {
+    grid-column: 3/6;
+    background: url("https://i.imgur.com/eWtfMME.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    // transform: translate3d(0, 50px, 0);
+  }
+
+  .item-b,
+  .item-c,
+  .item-d,
+  .item-e,
+  .item-f {
+    position: relative;
+    padding: 20px;
+
+    h3 {
+      position: absolute;
+      font-size: 1.4rem;
+      bottom: 20px;
+      color: white;
+      font-weight: 700;
+    }
+
+    h4 {
+      font-size: 1rem;
+      color: white;
+      text-transform: uppercase;
+    }
+
+    &.news {
+      h3 {
+        color: #6516e7;
+        position: absolute;
+        display: block;
+        top: 80px;
+      }
+
+      h4 {
+        display: block;
+        position: absolute;
+        color: black;
+      }
+
+      p {
+        position: absolute;
+        top: 120px;
+      }
+    }
+  }
+}
+///VIDEO
+
+.video-background {
+  background: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  // z-index: -99;
+}
+
+.video-background iframe,
+.video-foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#vidtop-content {
+  top: 0;
+  color: #fff;
+}
+
+.vid-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 33%;
+  background: rgba(0,0,0,0.3);
+  color: #fff;
+  padding: 1rem;
+  font-family: Avenir, Helvetica, sans-serif;
+}
+
+.vid-info h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+.vid-info a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(0,0,0,0.5);
+  transition: 0.6s background;
+  border-bottom: none;
+  margin: 1rem auto;
+  text-align: center;
+}
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground {
+    height: 300%;
+    top: -100%;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground {
+    width: 300%;
+    left: -100%;
+  }
+}
+@media all and (max-width: 600px) {
+  .vid-info {
+    width: 50%;
+    padding: 0.5rem;
+  }
+
+  .vid-info h1 {
+    margin-bottom: 0.2rem;
+  }
+}
+@media all and (max-width: 500px) {
+  .vid-info .acronym {
+    display: none;
+  }
+}

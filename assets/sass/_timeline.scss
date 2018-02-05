@@ -1,0 +1,164 @@
+.content-area.timeline {
+  background: #04040e;
+  display: grid;
+  height: 100vh;
+  overflow-y: scroll;
+  color: white;
+
+  .course-bg {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    padding: 40px;
+
+    .quick-info {
+      margin-top: 100px;
+
+      h1 {
+        text-transform: uppercase;
+        font-size: 108px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 1rem;
+        text-align: center;
+        // max-width: 500px;
+      }
+
+      p {
+        max-width: 500px;
+        line-height: 2;
+        font-weight: 400;
+        margin-bottom: 1rem;
+      }
+    }
+
+    .choose-path {
+      display: grid;
+      justify-content: center;
+      justify-items: center;
+
+      ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        width: 600px;
+        padding: 40px 0;
+        grid-gap: 20px;
+
+        li {
+          border: 1px solid $purple;
+          padding: 20px;
+          text-transform: uppercase;
+          position: relative;
+          cursor: pointer;
+          transition: background 0.3s ease-in-out;
+
+          &:hover {
+            background: $darkPurple;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+#hoursPerWeek {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 2rem;
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+  }
+
+  .hours {
+    text-align: center;
+    font-size: 3rem;
+    color: $purple;
+    background: transparent;
+    border: 1px solid $purple;
+    padding: 20px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-bottom: 1.4rem;
+  }
+
+  .next-btn {
+    border: 1px solid $pink;
+    background: $pink;
+    padding: 20px;
+    // width: 100%;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
+#FrontEnd {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+
+  h4 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+
+  .item {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    width: 600px;
+
+    .course {
+      background: #1b1b1b;
+      width: 100%;
+      border: 1px solid $purple;
+      padding: 20px;
+      text-transform: uppercase;
+      position: relative;
+      cursor: pointer;
+      transition: background 0.3s ease-in-out;
+
+      &:hover {
+        background: $darkPurple;
+        color: white;
+      }
+    }
+
+    .check {
+      width: 100%;
+      border: 1px solid $purple;
+      padding: 20px;
+      text-transform: uppercase;
+      position: relative;
+      cursor: pointer;
+      // transition: background 0.3s ease-in-out;
+      text-align: center;
+
+      &.completed {
+        border: 1px solid $pink;
+        background: $pink;
+
+        &:hover {
+          border: 1px solid $purple;
+          background: transparent;
+        }
+      }
+
+      &:hover {
+        background: $darkPurple;
+        color: white;
+      }
+    }
+  }
+}
