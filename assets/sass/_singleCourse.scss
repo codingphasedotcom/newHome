@@ -179,12 +179,46 @@
         margin: 10px 0;
       }
 
+      .buy-btn {
+        padding: 20px;
+        width: 100%;
+        font-size: 2rem;
+        font-weight: 800;
+        text-align: center;
+        border: 1px solid $purple;
+        text-transform: uppercase;
+        display: block;
+        text-decoration: none;
+
+        &:hover {
+          background: $pink;
+        }
+
+        &:active,
+        &:link,
+        &:visited {
+          color: white !important;
+        }
+      }
+
       .subscribe-btn {
+        text-decoration: none;
+        display: block;
         color: white;
         background: #6516e7;
         padding: 20px;
         text-transform: uppercase;
         text-align: center;
+
+        &:hover {
+          background: $pink;
+        }
+
+        &:active,
+        &:link,
+        &:visited {
+          color: white !important;
+        }
       }
 
       h3 {
