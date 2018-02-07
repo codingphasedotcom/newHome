@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-import coursesData from '../../data/courses.js'
+import {coursesData} from '../../data/index.js'
 
 export default class SingleCourse extends React.Component {
 	render() {

@@ -1,7 +1,8 @@
-import coursesData from './courses.js'
-import timelineData from './timeline.js'
-
+import coursesData from './coursesData.js'
+import timelineData from './timelineData.js'
+import categoriesData from './categoriesData.js'
 export {
   coursesData,
-  timelineData
+  timelineData,
+  categoriesData,
 }

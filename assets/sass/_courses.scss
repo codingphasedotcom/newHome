@@ -46,7 +46,6 @@
 
         .select {
           border: 1px solid $purple;
-          padding: 20px;
           text-transform: uppercase;
           position: relative;
           cursor: pointer;
@@ -54,6 +53,7 @@
           .selected {
             font-size: 1.3rem;
             font-weight: 900;
+            padding: 20px;
           }
 
           .dropdown {
@@ -65,6 +65,16 @@
             text-transform: uppercase;
             background: $purple;
             z-index: 15;
+            visibility: hidden;
+            opacity: 0;
+            transition: all 0.2s ease-in-out;
+            max-height: 250px;
+            overflow-y: scroll;
+
+            &.active {
+              visibility: visible;
+              opacity: 1;
+            }
 
             li {
               padding: 20px;

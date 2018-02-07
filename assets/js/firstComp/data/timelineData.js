@@ -2,43 +2,53 @@ const timelineData = {
   frontend: [
     {
       title: "Atom Text Editor 101",
-      status: true
+      hours: 1,
+      status: false
     },
     {
       title: "Learn HTML and CSS by building a cool social network",
-      status: true
+      hours: 8,
+      status: false
     },
     {
       title: "Build a responsive app",
-      status: true
+      hours: 6,
+      status: false
     },
     {
       title: "Advance CSS",
-      status: true
+      hours: 2,
+      status: false
     },
     {
       title: "SASS Like a pro",
-      status: true
+      hours: 2,
+      status: false
     },
     {
       title: "Pug Template Engine",
-      status: true
+      hours: 2,
+      status: false
     },
     {
       title: "Future Proof Javascript",
+      hours: 10,
       status: false
     },
     {
       title: "JQuery",
-      status: true
+      hours: 4,
+      status: false
     },
     {
       title: "Build A Restaurant Web App",
-      status: true
+      hours: 11,
+      status: false
     },
     {
       title: "React JS Quick and Easy",
-      status: true
+      hours: 8,
+      status: false
     },
   ]
 }

@@ -37,12 +37,12 @@ export default class App extends React.Component {
                 Timeline
               </span>
             </NavLink>
-            <NavLink exact  to="/dash" activeClassName="active" >
+            <a href="https://codingphase.teachable.com/courses/enrolled">
               <i className="fas fa-home"></i>
               <span className="text">
-                Dashboard
+                Members Area
               </span>
-            </NavLink>
+            </a>
             <a href="https://discordapp.com/invite/weTKutq" target="new">
               <i className="far fa-comments"></i>
               <span className="text">

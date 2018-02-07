@@ -101,6 +101,24 @@
   }
 }
 
+.splitter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 360px;
+  grid-gap: 40px;
+  // grid-template-rows: 44% 28% 28%;
+  .totalDays {
+    padding: 100px 0 0;
+    text-align: center;
+
+    h4 {}
+
+    h1 {
+      font-weight: 100;
+      color: $pink;
+    }
+  }
+}
+
 #FrontEnd {
   display: grid;
   justify-content: center;
@@ -117,8 +135,7 @@
     grid-template-columns: 3fr 1fr;
     justify-content: center;
     justify-items: center;
-    width: 600px;
-
+    // width: 600px;
     .course {
       background: #1b1b1b;
       width: 100%;

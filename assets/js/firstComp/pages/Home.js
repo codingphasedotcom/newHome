@@ -23,14 +23,14 @@ export default class Home extends React.Component {
 
 
         </div>
-        <div className="content item-b">
+        <a href="/courses/react-quick-and-easy" className="content item-b">
           <h4>Javascript</h4>
           <h3>React Quick and Easy</h3>
-        </div>
-        <div className="content item-c">
+        </a>
+        <a href="/courses/life-after-learning-to-code" className="content item-c">
         <h4>Career</h4>
         <h3>Life After Learning To Code</h3>
-        </div>
+        </a>
         <div className="content item-d news">
           <h4>News</h4>
           <h3>Life After Learning To Code</h3>
