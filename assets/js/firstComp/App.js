@@ -43,7 +43,7 @@ export default class App extends React.Component {
         </div>
         <div className={`mobile-menu ${(this.state.mobileMenu) ? 'active': ''}`}>
           <NavLink exact to="/" activeClassName="active" onClick={this.clickedMobile}>
-            <i className="fas fa-fire"></i>
+            <i className="fa fa-fire"></i>
             <span className="text">
               CodingPhase
             </span>
@@ -87,49 +87,50 @@ export default class App extends React.Component {
             </span>
           </NavLink>
         </div>
+
         <div className="layout">
 
           <div className="sidemenu">
             <NavLink exact to="/" activeClassName="active">
-              <i className="fas fa-fire"></i>
+              <i className="fa-code"></i>
               <span className="text">
                 CodingPhase
               </span>
             </NavLink>
             <NavLink  to="/courses" activeClassName="active">
-              <i className="fa fa-book" aria-hidden="true"></i>
+              <i className="fa-language" aria-hidden="true"></i>
               <span className="text">
-                COURSES
+                Courses
               </span>
             </NavLink>
             <NavLink exact to="/timeline" activeClassName="active">
-              <i className="far fa-address-card"></i>
+              <i className="fa-timeline"></i>
               <span className="text">
                 Timeline
               </span>
             </NavLink>
             <a href="https://codingphase.teachable.com/courses/enrolled">
-              <i className="fas fa-home"></i>
+              <i className="fa-team"></i>
               <span className="text">
                 Members Area
               </span>
             </a>
             <a href="https://discordapp.com/invite/weTKutq" target="new">
-              <i className="far fa-comments"></i>
+              <i className="fa-chat"></i>
               <span className="text">
-                CHAT
+                Chat
               </span>
             </a>
 
 
             <a href="https://youtube.com/CodingPhase" target="new">
-              <i className="fas fa-tv"></i>
+              <i className="fa-youtube"></i>
               <span className="text">
-                CHANNEL
+                Channel
               </span>
             </a>
             <NavLink exact to="/settings" activeClassName="active">
-              <i className="fas fa-sliders-h"></i>
+              <i className="fa-settings"></i>
               <span className="text">
                 Settings
               </span>
