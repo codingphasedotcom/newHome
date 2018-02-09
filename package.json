@@ -1,11 +1,11 @@
 {
-  "name": "RockyBoy",
-  "version": "1.0.0",
-  "description": "Super Cool Framework",
+  "name": "CodingPhase.com
+  "version": "1.0.1,
+  "description": " Website for Developers ",
   "main": "index.js",
-  "author": "joe santos garcia",
+  "author": "joe santos garcia & community",
   "license": "MIT",
-  "homepage": "http://rocky.codingphase.com/",
+  "homepage": "http://www.codingphase.com/",
   "dependencies": {
     "axios": "^0.16.1",
     "babel-core": "^6.24.1",
