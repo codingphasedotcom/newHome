@@ -31,6 +31,8 @@
     "node-sass": "^4.5.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "react-g-analytics": "^0.4.2",
+    "react-ga": "^2.4.1",
     "react-redux": "^5.0.4",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.2.2",

@@ -17,6 +17,9 @@ export default class Courses extends React.Component {
       currentType: 'all'
     }
   }
+  componentDidMount(){
+    document.title = "CodingPhase.com | All Courses";
+  }
   componentWillMount(){
 
   }

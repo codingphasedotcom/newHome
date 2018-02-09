@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 118:
+/***/ 119:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16,27 +16,31 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(23);
 
-var _Home = __webpack_require__(127);
+var _Home = __webpack_require__(128);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _Timeline = __webpack_require__(128);
+var _Timeline = __webpack_require__(129);
 
 var _Timeline2 = _interopRequireDefault(_Timeline);
 
-var _Courses = __webpack_require__(120);
+var _Courses = __webpack_require__(121);
 
 var _Courses2 = _interopRequireDefault(_Courses);
 
-var _SingleCourse = __webpack_require__(121);
+var _SingleCourse = __webpack_require__(122);
 
 var _SingleCourse2 = _interopRequireDefault(_SingleCourse);
 
-var _Gear = __webpack_require__(125);
+var _Gear = __webpack_require__(126);
 
 var _Gear2 = _interopRequireDefault(_Gear);
+
+var _reactGa = __webpack_require__(232);
+
+var _reactGa2 = _interopRequireDefault(_reactGa);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -46,18 +50,40 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+_reactGa2.default.initialize('UA-37043736-10');
+
 var App = function (_React$Component) {
   _inherits(App, _React$Component);
 
-  function App() {
+  function App(props) {
     _classCallCheck(this, App);
 
-    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
+    var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));
+
+    _this.state = {
+      mobileMenu: false
+    };
+    _this.clickedMobile = _this.clickedMobile.bind(_this);
+    return _this;
   }
 
   _createClass(App, [{
     key: 'componentDidMount',
-    value: function componentDidMount() {}
+    value: function componentDidMount() {
+      _reactGa2.default.pageview(window.location.pathname + window.location.search);
+    }
+  }, {
+    key: 'clickedMobile',
+    value: function clickedMobile() {
+      var _this2 = this;
+
+      this.setState({
+        mobileMenu: !this.state.mobileMenu
+      }, function () {
+        console.log(_this2.state.mobileMenu);
+        console.log(_this2.state);
+      });
+    }
   }, {
     key: 'render',
     value: function render() {
@@ -67,13 +93,18 @@ var App = function (_React$Component) {
         null,
         _react2.default.createElement(
           'div',
-          { className: 'layout' },
+          null,
           _react2.default.createElement(
             'div',
-            { className: 'sidemenu' },
+            { className: 'mobile-btn', onClick: this.clickedMobile },
+            _react2.default.createElement('i', { className: 'fas fa-bars' })
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'mobile-menu ' + (this.state.mobileMenu ? 'active' : '') },
             _react2.default.createElement(
               _reactRouterDom.NavLink,
-              { exact: true, to: '/', activeClassName: 'active' },
+              { exact: true, to: '/', activeClassName: 'active', onClick: this.clickedMobile },
               _react2.default.createElement('i', { className: 'fas fa-fire' }),
               _react2.default.createElement(
                 'span',
@@ -83,7 +114,7 @@ var App = function (_React$Component) {
             ),
             _react2.default.createElement(
               _reactRouterDom.NavLink,
-              { to: '/courses', activeClassName: 'active' },
+              { to: '/courses', activeClassName: 'active', onClick: this.clickedMobile },
               _react2.default.createElement('i', { className: 'fa fa-book', 'aria-hidden': 'true' }),
               _react2.default.createElement(
                 'span',
@@ -93,7 +124,7 @@ var App = function (_React$Component) {
             ),
             _react2.default.createElement(
               _reactRouterDom.NavLink,
-              { exact: true, to: '/timeline', activeClassName: 'active' },
+              { exact: true, to: '/timeline', activeClassName: 'active', onClick: this.clickedMobile },
               _react2.default.createElement('i', { className: 'far fa-address-card' }),
               _react2.default.createElement(
                 'span',
@@ -133,7 +164,7 @@ var App = function (_React$Component) {
             ),
             _react2.default.createElement(
               _reactRouterDom.NavLink,
-              { exact: true, to: '/settings', activeClassName: 'active' },
+              { exact: true, to: '/settings', activeClassName: 'active', onClick: this.clickedMobile },
               _react2.default.createElement('i', { className: 'fas fa-sliders-h' }),
               _react2.default.createElement(
                 'span',
@@ -142,12 +173,90 @@ var App = function (_React$Component) {
               )
             )
           ),
-          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/courses', component: _Courses2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/courses/:course', component: _SingleCourse2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/timeline', component: _Timeline2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/timeline/:path', component: _Timeline2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/timeline/:path/:hours', component: _Timeline2.default })
+          _react2.default.createElement(
+            'div',
+            { className: 'layout' },
+            _react2.default.createElement(
+              'div',
+              { className: 'sidemenu' },
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { exact: true, to: '/', activeClassName: 'active' },
+                _react2.default.createElement('i', { className: 'fas fa-fire' }),
+                _react2.default.createElement(
+                  'span',
+                  { className: 'text' },
+                  'CodingPhase'
+                )
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { to: '/courses', activeClassName: 'active' },
+                _react2.default.createElement('i', { className: 'fa fa-book', 'aria-hidden': 'true' }),
+                _react2.default.createElement(
+                  'span',
+                  { className: 'text' },
+                  'COURSES'
+                )
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { exact: true, to: '/timeline', activeClassName: 'active' },
+                _react2.default.createElement('i', { className: 'far fa-address-card' }),
+                _react2.default.createElement(
+                  'span',
+                  { className: 'text' },
+                  'Timeline'
+                )
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: 'https://codingphase.teachable.com/courses/enrolled' },
+                _react2.default.createElement('i', { className: 'fas fa-home' }),
+                _react2.default.createElement(
+                  'span',
+                  { className: 'text' },
+                  'Members Area'
+                )
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: 'https://discordapp.com/invite/weTKutq', target: 'new' },
+                _react2.default.createElement('i', { className: 'far fa-comments' }),
+                _react2.default.createElement(
+                  'span',
+                  { className: 'text' },
+                  'CHAT'
+                )
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: 'https://youtube.com/CodingPhase', target: 'new' },
+                _react2.default.createElement('i', { className: 'fas fa-tv' }),
+                _react2.default.createElement(
+                  'span',
+                  { className: 'text' },
+                  'CHANNEL'
+                )
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { exact: true, to: '/settings', activeClassName: 'active' },
+                _react2.default.createElement('i', { className: 'fas fa-sliders-h' }),
+                _react2.default.createElement(
+                  'span',
+                  { className: 'text' },
+                  'Settings'
+                )
+              )
+            ),
+            _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
+            _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/courses', component: _Courses2.default }),
+            _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/courses/:course', component: _SingleCourse2.default }),
+            _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/timeline', component: _Timeline2.default }),
+            _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/timeline/:path', component: _Timeline2.default }),
+            _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/timeline/:path/:hours', component: _Timeline2.default })
+          )
         )
       );
     }
@@ -160,7 +269,7 @@ exports.default = App;
 
 /***/ }),
 
-/***/ 120:
+/***/ 121:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -176,7 +285,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(23);
 
 var _index = __webpack_require__(41);
 
@@ -317,6 +426,11 @@ var Courses = function (_React$Component) {
   }
 
   _createClass(Courses, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      document.title = "CodingPhase.com | All Courses";
+    }
+  }, {
     key: 'componentWillMount',
     value: function componentWillMount() {}
   }, {
@@ -448,7 +562,7 @@ exports.default = Courses;
 
 /***/ }),
 
-/***/ 121:
+/***/ 122:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -464,7 +578,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(23);
 
 var _index = __webpack_require__(41);
 
@@ -486,12 +600,22 @@ var SingleCourse = function (_React$Component) {
 	}
 
 	_createClass(SingleCourse, [{
-		key: 'render',
-		value: function render() {
+		key: 'componentDidMount',
+		value: function componentDidMount() {
 			var _props = this.props,
 			    match = _props.match,
 			    location = _props.location,
 			    history = _props.history;
+
+			document.title = 'CodingPhase.com | ' + match.params.course;
+		}
+	}, {
+		key: 'render',
+		value: function render() {
+			var _props2 = this.props,
+			    match = _props2.match,
+			    location = _props2.location,
+			    history = _props2.history;
 
 			var current = _index.coursesData.filter(function (item) {
 				return item.slug === match.params.course;
@@ -686,7 +810,7 @@ exports.default = SingleCourse;
 
 /***/ }),
 
-/***/ 122:
+/***/ 123:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -701,7 +825,7 @@ exports.default = timelineData;
 
 /***/ }),
 
-/***/ 123:
+/***/ 124:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1186,7 +1310,7 @@ exports.default = coursesData;
 
 /***/ }),
 
-/***/ 124:
+/***/ 125:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1242,7 +1366,7 @@ exports.default = timelineData;
 
 /***/ }),
 
-/***/ 125:
+/***/ 126:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1258,7 +1382,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1295,7 +1419,7 @@ exports.default = Gear;
 
 /***/ }),
 
-/***/ 126:
+/***/ 127:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1309,7 +1433,7 @@ var _reactDom = __webpack_require__(40);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _App = __webpack_require__(118);
+var _App = __webpack_require__(119);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -1321,7 +1445,7 @@ _reactDom2.default.render(_react2.default.createElement(_App2.default, null), ro
 
 /***/ }),
 
-/***/ 127:
+/***/ 128:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1337,7 +1461,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1357,6 +1481,11 @@ var Home = function (_React$Component) {
   }
 
   _createClass(Home, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      document.title = "CodingPhase.com | Welcome";
+    }
+  }, {
     key: 'render',
     value: function render() {
       var _props = this.props,
@@ -1492,7 +1621,7 @@ exports.default = Home;
 
 /***/ }),
 
-/***/ 128:
+/***/ 129:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1508,11 +1637,11 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(23);
 
 var _index = __webpack_require__(41);
 
-var _immutabilityHelper = __webpack_require__(151);
+var _immutabilityHelper = __webpack_require__(152);
 
 var _immutabilityHelper2 = _interopRequireDefault(_immutabilityHelper);
 
@@ -1756,6 +1885,7 @@ var Timeline = function (_React$Component) {
 	}, {
 		key: 'componentDidMount',
 		value: function componentDidMount() {
+			document.title = "CodingPhase.com | Timeline";
 			(adsbygoogle = window.adsbygoogle || []).push({});
 		}
 	}, {
@@ -1873,15 +2003,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.categoriesData = exports.timelineData = exports.coursesData = undefined;
 
-var _coursesData = __webpack_require__(123);
+var _coursesData = __webpack_require__(124);
 
 var _coursesData2 = _interopRequireDefault(_coursesData);
 
-var _timelineData = __webpack_require__(124);
+var _timelineData = __webpack_require__(125);
 
 var _timelineData2 = _interopRequireDefault(_timelineData);
 
-var _categoriesData = __webpack_require__(122);
+var _categoriesData = __webpack_require__(123);
 
 var _categoriesData2 = _interopRequireDefault(_categoriesData);
 
@@ -1893,4 +2023,4 @@ exports.categoriesData = _categoriesData2.default;
 
 /***/ })
 
-},[126]);
+},[127]);

@@ -30,6 +30,7 @@ export default class Timeline extends React.Component {
 		}
 	}
 	componentDidMount(){
+		document.title = "CodingPhase.com | Timeline";
     (adsbygoogle = window.adsbygoogle || []).push({});
   }
 	clickedBtn() {

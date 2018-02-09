@@ -6,6 +6,9 @@ import {
 } from 'react-router-dom'
 
 export default class Home extends React.Component {
+  componentDidMount(){
+    document.title = "CodingPhase.com | Welcome";
+  }
   render(){
     const { match, location, history } = this.props
     return (

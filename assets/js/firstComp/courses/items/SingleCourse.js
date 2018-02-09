@@ -3,6 +3,10 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import {coursesData} from '../../data/index.js'
 
 export default class SingleCourse extends React.Component {
+	componentDidMount(){
+		const { match, location, history } = this.props
+    document.title = `CodingPhase.com | ${match.params.course}`;
+  }
 	render() {
 		const { match, location, history } = this.props
 		let current = coursesData.filter(

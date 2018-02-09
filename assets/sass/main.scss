@@ -85,3 +85,79 @@ html {
     }
   }
 }
+
+.mobile-btn {
+  position: fixed;
+  right: 20px;
+  top: 40px;
+  background: $purple;
+  z-index: 101;
+  padding: 20px;
+  display: block;
+
+  .fas {
+    color: white;
+    font-size: 2rem;
+  }
+}
+
+.mobile-menu {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  z-index: 100;
+  visibility: hidden;
+  padding: 50px 0;
+  transform: translate3d(-300px,0,0);
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+
+  &.active {
+    transform: translate3d(0,0,0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  a {
+    color: $purple;
+    display: block;
+    padding: 20px;
+    font-size: 2rem;
+
+    .fa,
+    .far,
+    .fas {
+      padding: 0 20px;
+    }
+  }
+}
+@media only screen and (min-width: 0) and (max-width: 450px) {
+  .layout {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-columns: 0 1fr;
+  }
+}
+@media only screen and (min-width: 451px) {
+  .layout {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-columns: 0 1fr;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .layout {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-columns: 100px 1fr;
+  }
+
+  .mobile-btn,
+  .mobileMenu {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1008px) {}
+@media only screen and (min-width: 1300px) {}
