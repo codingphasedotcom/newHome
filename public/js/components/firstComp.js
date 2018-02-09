@@ -1560,15 +1560,15 @@ var Home = function (_React$Component) {
         'div',
         { className: 'content-area home' },
         _react2.default.createElement(
-          'div',
-          { className: 'content item-a' },
+          'a',
+          { href: 'https://www.youtube.com/watch?v=YR3cFC3FDek', target: 'new', className: 'content item-a' },
           _react2.default.createElement(
             'div',
             { className: 'video-background' },
             _react2.default.createElement(
               'div',
               { className: 'video-foreground' },
-              _react2.default.createElement('iframe', { id: 'homevideo', src: 'https://www.youtube.com/embed/45MSF6VmGcc?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=W0LHTWG-UmQ', frameborder: '0', allowfullscreen: true })
+              _react2.default.createElement('iframe', { id: 'homevideo', src: 'https://www.youtube.com/embed/YR3cFC3FDek?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=W0LHTWG-UmQ', frameborder: '0', allowfullscreen: true })
             )
           ),
           _react2.default.createElement(
@@ -1579,7 +1579,7 @@ var Home = function (_React$Component) {
           _react2.default.createElement(
             'h1',
             null,
-            'How To Dream Big But Stay Grounded'
+            'Portfolio Review #6'
           ),
           _react2.default.createElement(
             'h3',
