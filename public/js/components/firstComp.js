@@ -196,7 +196,7 @@ var App = function (_React$Component) {
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },
-                  'COURSES'
+                  'Courses'
                 )
               ),
               _react2.default.createElement(
