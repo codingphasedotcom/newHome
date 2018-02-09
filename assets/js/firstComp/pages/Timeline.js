@@ -2,6 +2,8 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import { timelineData } from '../data/index.js'
 import update from 'immutability-helper'
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-37043736-10');
 
 export default class Timeline extends React.Component {
 	constructor(props) {
@@ -30,6 +32,7 @@ export default class Timeline extends React.Component {
 		}
 	}
 	componentDidMount(){
+		ReactGA.pageview(window.location.pathname + window.location.search);
 		document.title = "CodingPhase.com | Timeline";
     (adsbygoogle = window.adsbygoogle || []).push({});
   }

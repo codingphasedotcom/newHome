@@ -4,6 +4,8 @@ import {
   Route,
   Link
 } from 'react-router-dom'
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-37043736-10');
 import {coursesData, categoriesData} from '../data/index.js'
 
 export default class Courses extends React.Component {
@@ -18,7 +20,9 @@ export default class Courses extends React.Component {
     }
   }
   componentDidMount(){
+    ReactGA.pageview(window.location.pathname + window.location.search);
     document.title = "CodingPhase.com | All Courses";
+
   }
   componentWillMount(){
 
