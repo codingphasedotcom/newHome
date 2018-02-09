@@ -196,7 +196,7 @@ var App = function (_React$Component) {
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },
-                  'Courses'
+                  'COURSES'
                 )
               ),
               _react2.default.createElement(
@@ -395,8 +395,8 @@ var Courses = function (_React$Component) {
                 "backgroundImage": 'url("' + course.imgs.thumbnail + '")'
               } },
             _react2.default.createElement(
-              _reactRouterDom.Link,
-              { exact: true, to: '/courses/' + course.slug, activeClassName: 'active' },
+              'a',
+              { href: '/courses/' + course.slug },
               _react2.default.createElement('div', { className: 'vig' })
             ),
             _react2.default.createElement(

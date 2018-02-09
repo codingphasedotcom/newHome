@@ -96,9 +96,9 @@ export default class Courses extends React.Component {
         <div className="thumb" style={{
           "backgroundImage": `url("${course.imgs.thumbnail}")`
         }}>
-        <Link exact to={`/courses/${course.slug}`} activeClassName="active">
+        <a href={`/courses/${course.slug}`} >
           <div className='vig'></div>
-        </Link>
+        </a>
           <h3>WATCH <i className="fab fa-youtube"></i></h3>
         </div>
         <div className="title">
