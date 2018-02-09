@@ -235,7 +235,7 @@ export default class Timeline extends React.Component {
 			let hoursPerDay = (this.props.match.params.hours / 5)
 			let daysLeft = (totalHoursLeft/ hoursPerDay)
 			return (<div className="totalDays">
-				<h4>At you pace per week it will take you</h4>
+				<h4>At your pace per week it will take you</h4>
 				<h1>{daysLeft.toFixed(2)}</h1>
 				<h4>days</h4>
 				</div>)
