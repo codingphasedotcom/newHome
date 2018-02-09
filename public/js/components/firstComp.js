@@ -105,7 +105,7 @@ var App = function (_React$Component) {
             _react2.default.createElement(
               _reactRouterDom.NavLink,
               { exact: true, to: '/', activeClassName: 'active', onClick: this.clickedMobile },
-              _react2.default.createElement('i', { className: 'fas fa-fire' }),
+              _react2.default.createElement('i', { className: 'fa fa-fire' }),
               _react2.default.createElement(
                 'span',
                 { className: 'text' },
@@ -182,7 +182,7 @@ var App = function (_React$Component) {
               _react2.default.createElement(
                 _reactRouterDom.NavLink,
                 { exact: true, to: '/', activeClassName: 'active' },
-                _react2.default.createElement('i', { className: 'fas fa-fire' }),
+                _react2.default.createElement('i', { className: 'fa-code' }),
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },
@@ -192,7 +192,7 @@ var App = function (_React$Component) {
               _react2.default.createElement(
                 _reactRouterDom.NavLink,
                 { to: '/courses', activeClassName: 'active' },
-                _react2.default.createElement('i', { className: 'fa fa-book', 'aria-hidden': 'true' }),
+                _react2.default.createElement('i', { className: 'fa-language', 'aria-hidden': 'true' }),
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },
@@ -202,7 +202,7 @@ var App = function (_React$Component) {
               _react2.default.createElement(
                 _reactRouterDom.NavLink,
                 { exact: true, to: '/timeline', activeClassName: 'active' },
-                _react2.default.createElement('i', { className: 'far fa-address-card' }),
+                _react2.default.createElement('i', { className: 'fa-timeline' }),
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },
@@ -212,7 +212,7 @@ var App = function (_React$Component) {
               _react2.default.createElement(
                 'a',
                 { href: 'https://codingphase.teachable.com/courses/enrolled' },
-                _react2.default.createElement('i', { className: 'fas fa-home' }),
+                _react2.default.createElement('i', { className: 'fa-team' }),
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },
@@ -222,27 +222,27 @@ var App = function (_React$Component) {
               _react2.default.createElement(
                 'a',
                 { href: 'https://discordapp.com/invite/weTKutq', target: 'new' },
-                _react2.default.createElement('i', { className: 'far fa-comments' }),
+                _react2.default.createElement('i', { className: 'fa-chat' }),
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },
-                  'CHAT'
+                  'Chat'
                 )
               ),
               _react2.default.createElement(
                 'a',
                 { href: 'https://youtube.com/CodingPhase', target: 'new' },
-                _react2.default.createElement('i', { className: 'fas fa-tv' }),
+                _react2.default.createElement('i', { className: 'fa-youtube' }),
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },
-                  'CHANNEL'
+                  'Channel'
                 )
               ),
               _react2.default.createElement(
                 _reactRouterDom.NavLink,
                 { exact: true, to: '/settings', activeClassName: 'active' },
-                _react2.default.createElement('i', { className: 'fas fa-sliders-h' }),
+                _react2.default.createElement('i', { className: 'fa-settings' }),
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },

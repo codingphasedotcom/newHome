@@ -1,0 +1,53 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 09/02/2018 15:18
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-settings:before { content: "\f100"; }
+.flaticon-language:before { content: "\f101"; }
+.flaticon-youtube:before { content: "\f102"; }
+.flaticon-team:before { content: "\f103"; }
+.flaticon-chat:before { content: "\f104"; }
+.flaticon-timeline:before { content: "\f105"; }
+.flaticon-code:before { content: "\f106"; }
+    
+    $font-Flaticon-settings: "\f100";
+    $font-Flaticon-language: "\f101";
+    $font-Flaticon-youtube: "\f102";
+    $font-Flaticon-team: "\f103";
+    $font-Flaticon-chat: "\f104";
+    $font-Flaticon-timeline: "\f105";
+    $font-Flaticon-code: "\f106";
