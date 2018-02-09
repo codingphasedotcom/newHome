@@ -489,55 +489,6 @@ var Courses = function (_React$Component) {
                     )
                   )
                 )
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'filter' },
-                _react2.default.createElement(
-                  'label',
-                  null,
-                  'Type'
-                ),
-                _react2.default.createElement(
-                  'div',
-                  { className: 'select' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'selected', onClick: function onClick() {
-                        return _this2.clickedSelect('type');
-                      } },
-                    this.state.currentType
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'dropdown ' + (this.state.selectType ? 'active' : '') },
-                    _react2.default.createElement(
-                      'ul',
-                      null,
-                      _react2.default.createElement(
-                        'li',
-                        { onClick: function onClick() {
-                            return _this2.filteringType('all');
-                          } },
-                        'All'
-                      ),
-                      _react2.default.createElement(
-                        'li',
-                        { onClick: function onClick() {
-                            return _this2.filteringType('premium');
-                          } },
-                        'Premium'
-                      ),
-                      _react2.default.createElement(
-                        'li',
-                        { onClick: function onClick() {
-                            return _this2.filteringType('free');
-                          } },
-                        'Free'
-                      )
-                    )
-                  )
-                )
               )
             )
           )
@@ -1344,6 +1295,14 @@ var timelineData = {
     hours: 2,
     status: false
   }, {
+    title: "HTML & CSS: Dashboard",
+    hours: 2,
+    status: false
+  }, {
+    title: "SideProject: Build a static site portfolio",
+    hours: 7,
+    status: false
+  }, {
     title: "Pug Template Engine",
     hours: 2,
     status: false
@@ -1356,12 +1315,25 @@ var timelineData = {
     hours: 4,
     status: false
   }, {
+    title: "Object Oriented Programming with Javascript",
+    hours: 2,
+    status: false
+  }, {
+    title: "Learn ESNEXT – ES6, ES7, ES8",
+    hours: 2,
+    status: false
+  }, {
     title: "Build A Restaurant Web App",
     hours: 11,
     status: false
   }, {
     title: "React JS Quick and Easy",
     hours: 8,
+    status: false
+  }],
+  backend: [{
+    title: "Atom Text Editor 101",
+    hours: 1,
     status: false
   }]
 };

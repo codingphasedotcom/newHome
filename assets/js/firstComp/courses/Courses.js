@@ -139,6 +139,7 @@ export default class Courses extends React.Component {
 
               </div>
             </div>
+            {/*
             <div className="filter">
               <label>Type</label>
               <div className="select">
@@ -155,6 +156,7 @@ export default class Courses extends React.Component {
               </div>
 
             </div>
+            */}
           </div>
 
         </div>

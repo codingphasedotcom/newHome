@@ -26,6 +26,16 @@ const timelineData = {
       status: false
     },
     {
+      title: "HTML & CSS: Dashboard",
+      hours: 2,
+      status: false
+    },
+    {
+      title: "SideProject: Build a static site portfolio",
+      hours: 7,
+      status: false
+    },
+    {
       title: "Pug Template Engine",
       hours: 2,
       status: false
@@ -41,6 +51,16 @@ const timelineData = {
       status: false
     },
     {
+      title: "Object Oriented Programming with Javascript",
+      hours: 2,
+      status: false
+    },
+    {
+      title: "Learn ESNEXT – ES6, ES7, ES8",
+      hours: 2,
+      status: false
+    },
+    {
       title: "Build A Restaurant Web App",
       hours: 11,
       status: false
@@ -50,6 +70,13 @@ const timelineData = {
       hours: 8,
       status: false
     },
-  ]
+  ],
+  backend: [
+    {
+      title: "Atom Text Editor 101",
+      hours: 1,
+      status: false
+    }
+  ],
 }
 export default timelineData;
