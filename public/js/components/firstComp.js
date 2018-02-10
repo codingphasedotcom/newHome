@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 119:
+/***/ 120:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18,29 +18,25 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(23);
 
-var _Home = __webpack_require__(128);
+var _Home = __webpack_require__(129);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _Timeline = __webpack_require__(129);
+var _Timeline = __webpack_require__(130);
 
 var _Timeline2 = _interopRequireDefault(_Timeline);
 
-var _Courses = __webpack_require__(121);
+var _Courses = __webpack_require__(122);
 
 var _Courses2 = _interopRequireDefault(_Courses);
 
-var _SingleCourse = __webpack_require__(122);
+var _SingleCourse = __webpack_require__(123);
 
 var _SingleCourse2 = _interopRequireDefault(_SingleCourse);
 
-var _Gear = __webpack_require__(126);
+var _Gear = __webpack_require__(127);
 
 var _Gear2 = _interopRequireDefault(_Gear);
-
-var _reactGa = __webpack_require__(232);
-
-var _reactGa2 = _interopRequireDefault(_reactGa);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -49,8 +45,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-_reactGa2.default.initialize('UA-37043736-10');
 
 var App = function (_React$Component) {
   _inherits(App, _React$Component);
@@ -68,11 +62,6 @@ var App = function (_React$Component) {
   }
 
   _createClass(App, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      _reactGa2.default.pageview(window.location.pathname + window.location.search);
-    }
-  }, {
     key: 'clickedMobile',
     value: function clickedMobile() {
       var _this2 = this;
@@ -105,7 +94,7 @@ var App = function (_React$Component) {
             _react2.default.createElement(
               _reactRouterDom.NavLink,
               { exact: true, to: '/', activeClassName: 'active', onClick: this.clickedMobile },
-              _react2.default.createElement('i', { className: 'fa fa-fire' }),
+              _react2.default.createElement('i', { className: 'fas fa-fire' }),
               _react2.default.createElement(
                 'span',
                 { className: 'text' },
@@ -182,7 +171,7 @@ var App = function (_React$Component) {
               _react2.default.createElement(
                 _reactRouterDom.NavLink,
                 { exact: true, to: '/', activeClassName: 'active' },
-                _react2.default.createElement('i', { className: 'fa-code' }),
+                _react2.default.createElement('i', { className: 'fas fa-fire' }),
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },
@@ -192,7 +181,7 @@ var App = function (_React$Component) {
               _react2.default.createElement(
                 _reactRouterDom.NavLink,
                 { to: '/courses', activeClassName: 'active' },
-                _react2.default.createElement('i', { className: 'fa-language', 'aria-hidden': 'true' }),
+                _react2.default.createElement('i', { className: 'fa fa-book', 'aria-hidden': 'true' }),
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },
@@ -202,7 +191,7 @@ var App = function (_React$Component) {
               _react2.default.createElement(
                 _reactRouterDom.NavLink,
                 { exact: true, to: '/timeline', activeClassName: 'active' },
-                _react2.default.createElement('i', { className: 'fa-timeline' }),
+                _react2.default.createElement('i', { className: 'far fa-address-card' }),
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },
@@ -212,7 +201,7 @@ var App = function (_React$Component) {
               _react2.default.createElement(
                 'a',
                 { href: 'https://codingphase.teachable.com/courses/enrolled' },
-                _react2.default.createElement('i', { className: 'fa-team' }),
+                _react2.default.createElement('i', { className: 'fas fa-home' }),
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },
@@ -222,27 +211,27 @@ var App = function (_React$Component) {
               _react2.default.createElement(
                 'a',
                 { href: 'https://discordapp.com/invite/weTKutq', target: 'new' },
-                _react2.default.createElement('i', { className: 'fa-chat' }),
+                _react2.default.createElement('i', { className: 'far fa-comments' }),
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },
-                  'Chat'
+                  'CHAT'
                 )
               ),
               _react2.default.createElement(
                 'a',
                 { href: 'https://youtube.com/CodingPhase', target: 'new' },
-                _react2.default.createElement('i', { className: 'fa-youtube' }),
+                _react2.default.createElement('i', { className: 'fas fa-tv' }),
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },
-                  'Channel'
+                  'CHANNEL'
                 )
               ),
               _react2.default.createElement(
                 _reactRouterDom.NavLink,
                 { exact: true, to: '/settings', activeClassName: 'active' },
-                _react2.default.createElement('i', { className: 'fa-settings' }),
+                _react2.default.createElement('i', { className: 'fas fa-sliders-h' }),
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },
@@ -269,7 +258,7 @@ exports.default = App;
 
 /***/ }),
 
-/***/ 121:
+/***/ 122:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -287,7 +276,11 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(23);
 
-var _index = __webpack_require__(41);
+var _reactGa = __webpack_require__(39);
+
+var _reactGa2 = _interopRequireDefault(_reactGa);
+
+var _index = __webpack_require__(42);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -296,6 +289,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+_reactGa2.default.initialize('UA-37043736-10');
 
 var Courses = function (_React$Component) {
   _inherits(Courses, _React$Component);
@@ -395,8 +390,8 @@ var Courses = function (_React$Component) {
                 "backgroundImage": 'url("' + course.imgs.thumbnail + '")'
               } },
             _react2.default.createElement(
-              _reactRouterDom.Link,
-              { exact: true, to: '/courses/' + course.slug, activeClassName: 'active' },
+              'a',
+              { href: '/courses/' + course.slug },
               _react2.default.createElement('div', { className: 'vig' })
             ),
             _react2.default.createElement(
@@ -428,6 +423,7 @@ var Courses = function (_React$Component) {
   _createClass(Courses, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
+      _reactGa2.default.pageview(window.location.pathname + window.location.search);
       document.title = "CodingPhase.com | All Courses";
     }
   }, {
@@ -493,55 +489,6 @@ var Courses = function (_React$Component) {
                     )
                   )
                 )
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'filter' },
-                _react2.default.createElement(
-                  'label',
-                  null,
-                  'Type'
-                ),
-                _react2.default.createElement(
-                  'div',
-                  { className: 'select' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'selected', onClick: function onClick() {
-                        return _this2.clickedSelect('type');
-                      } },
-                    this.state.currentType
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'dropdown ' + (this.state.selectType ? 'active' : '') },
-                    _react2.default.createElement(
-                      'ul',
-                      null,
-                      _react2.default.createElement(
-                        'li',
-                        { onClick: function onClick() {
-                            return _this2.filteringType('all');
-                          } },
-                        'All'
-                      ),
-                      _react2.default.createElement(
-                        'li',
-                        { onClick: function onClick() {
-                            return _this2.filteringType('premium');
-                          } },
-                        'Premium'
-                      ),
-                      _react2.default.createElement(
-                        'li',
-                        { onClick: function onClick() {
-                            return _this2.filteringType('free');
-                          } },
-                        'Free'
-                      )
-                    )
-                  )
-                )
               )
             )
           )
@@ -562,7 +509,7 @@ exports.default = Courses;
 
 /***/ }),
 
-/***/ 122:
+/***/ 123:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -580,7 +527,11 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(23);
 
-var _index = __webpack_require__(41);
+var _index = __webpack_require__(42);
+
+var _reactGa = __webpack_require__(39);
+
+var _reactGa2 = _interopRequireDefault(_reactGa);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -589,6 +540,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+_reactGa2.default.initialize('UA-37043736-10');
 
 var SingleCourse = function (_React$Component) {
 	_inherits(SingleCourse, _React$Component);
@@ -602,6 +555,7 @@ var SingleCourse = function (_React$Component) {
 	_createClass(SingleCourse, [{
 		key: 'componentDidMount',
 		value: function componentDidMount() {
+			_reactGa2.default.pageview(window.location.pathname + window.location.search);
 			var _props = this.props,
 			    match = _props.match,
 			    location = _props.location,
@@ -810,7 +764,7 @@ exports.default = SingleCourse;
 
 /***/ }),
 
-/***/ 123:
+/***/ 124:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -825,7 +779,7 @@ exports.default = timelineData;
 
 /***/ }),
 
-/***/ 124:
+/***/ 125:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1310,7 +1264,7 @@ exports.default = coursesData;
 
 /***/ }),
 
-/***/ 125:
+/***/ 126:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1341,6 +1295,14 @@ var timelineData = {
     hours: 2,
     status: false
   }, {
+    title: "HTML & CSS: Dashboard",
+    hours: 2,
+    status: false
+  }, {
+    title: "SideProject: Build a static site portfolio",
+    hours: 7,
+    status: false
+  }, {
     title: "Pug Template Engine",
     hours: 2,
     status: false
@@ -1353,6 +1315,14 @@ var timelineData = {
     hours: 4,
     status: false
   }, {
+    title: "Object Oriented Programming with Javascript",
+    hours: 2,
+    status: false
+  }, {
+    title: "Learn ESNEXT – ES6, ES7, ES8",
+    hours: 2,
+    status: false
+  }, {
     title: "Build A Restaurant Web App",
     hours: 11,
     status: false
@@ -1360,13 +1330,99 @@ var timelineData = {
     title: "React JS Quick and Easy",
     hours: 8,
     status: false
+  }],
+  backend: [{
+    title: "Atom Text Editor 101",
+    hours: 1,
+    status: false
+  }, {
+    title: "PHP 7 and Laravel Master Course",
+    hours: 20,
+    status: false
+  }, {
+    title: "Ruby",
+    hours: 7,
+    status: false
+  }, {
+    title: "Ruby on Rails",
+    hours: 7,
+    status: false
+  }],
+  fullstack: [{
+    title: "Atom Text Editor 101",
+    hours: 1,
+    status: false
+  }, {
+    title: "Learn HTML and CSS by building a cool social network",
+    hours: 8,
+    status: false
+  }, {
+    title: "Build a responsive app",
+    hours: 6,
+    status: false
+  }, {
+    title: "Advance CSS",
+    hours: 2,
+    status: false
+  }, {
+    title: "SASS Like a pro",
+    hours: 2,
+    status: false
+  }, {
+    title: "HTML & CSS: Dashboard",
+    hours: 2,
+    status: false
+  }, {
+    title: "SideProject: Build a static site portfolio",
+    hours: 7,
+    status: false
+  }, {
+    title: "Pug Template Engine",
+    hours: 2,
+    status: false
+  }, {
+    title: "Future Proof Javascript",
+    hours: 10,
+    status: false
+  }, {
+    title: "JQuery",
+    hours: 4,
+    status: false
+  }, {
+    title: "Object Oriented Programming with Javascript",
+    hours: 2,
+    status: false
+  }, {
+    title: "Learn ESNEXT – ES6, ES7, ES8",
+    hours: 2,
+    status: false
+  }, {
+    title: "Build A Restaurant Web App",
+    hours: 11,
+    status: false
+  }, {
+    title: "React JS Quick and Easy",
+    hours: 8,
+    status: false
+  }, {
+    title: "PHP 7 and Laravel Master Course",
+    hours: 20,
+    status: false
+  }, {
+    title: "Ruby",
+    hours: 7,
+    status: false
+  }, {
+    title: "Ruby on Rails",
+    hours: 7,
+    status: false
   }]
 };
 exports.default = timelineData;
 
 /***/ }),
 
-/***/ 126:
+/***/ 127:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1419,7 +1475,7 @@ exports.default = Gear;
 
 /***/ }),
 
-/***/ 127:
+/***/ 128:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1429,11 +1485,11 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(40);
+var _reactDom = __webpack_require__(41);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _App = __webpack_require__(119);
+var _App = __webpack_require__(120);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -1445,7 +1501,7 @@ _reactDom2.default.render(_react2.default.createElement(_App2.default, null), ro
 
 /***/ }),
 
-/***/ 128:
+/***/ 129:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1463,6 +1519,10 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(23);
 
+var _reactGa = __webpack_require__(39);
+
+var _reactGa2 = _interopRequireDefault(_reactGa);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -1470,6 +1530,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+_reactGa2.default.initialize('UA-37043736-10');
 
 var Home = function (_React$Component) {
   _inherits(Home, _React$Component);
@@ -1483,6 +1545,7 @@ var Home = function (_React$Component) {
   _createClass(Home, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
+      _reactGa2.default.pageview(window.location.pathname + window.location.search);
       document.title = "CodingPhase.com | Welcome";
     }
   }, {
@@ -1497,15 +1560,15 @@ var Home = function (_React$Component) {
         'div',
         { className: 'content-area home' },
         _react2.default.createElement(
-          'div',
-          { className: 'content item-a' },
+          'a',
+          { href: 'https://www.youtube.com/watch?v=YR3cFC3FDek', target: 'new', className: 'content item-a' },
           _react2.default.createElement(
             'div',
             { className: 'video-background' },
             _react2.default.createElement(
               'div',
               { className: 'video-foreground' },
-              _react2.default.createElement('iframe', { id: 'homevideo', src: 'https://www.youtube.com/embed/45MSF6VmGcc?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=W0LHTWG-UmQ', frameborder: '0', allowfullscreen: true })
+              _react2.default.createElement('iframe', { id: 'homevideo', src: 'https://www.youtube.com/embed/YR3cFC3FDek?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=W0LHTWG-UmQ', frameborder: '0', allowfullscreen: true })
             )
           ),
           _react2.default.createElement(
@@ -1516,7 +1579,7 @@ var Home = function (_React$Component) {
           _react2.default.createElement(
             'h1',
             null,
-            'How To Dream Big But Stay Grounded'
+            'Portfolio Review #6'
           ),
           _react2.default.createElement(
             'h3',
@@ -1621,7 +1684,7 @@ exports.default = Home;
 
 /***/ }),
 
-/***/ 129:
+/***/ 130:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1639,11 +1702,15 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(23);
 
-var _index = __webpack_require__(41);
+var _index = __webpack_require__(42);
 
-var _immutabilityHelper = __webpack_require__(152);
+var _immutabilityHelper = __webpack_require__(153);
 
 var _immutabilityHelper2 = _interopRequireDefault(_immutabilityHelper);
+
+var _reactGa = __webpack_require__(39);
+
+var _reactGa2 = _interopRequireDefault(_reactGa);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1654,6 +1721,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+_reactGa2.default.initialize('UA-37043736-10');
 
 var Timeline = function (_React$Component) {
 	_inherits(Timeline, _React$Component);
@@ -1832,7 +1901,7 @@ var Timeline = function (_React$Component) {
 			var totalHoursLeft = totalHoursArr.reduce(function (a, b) {
 				return a + b;
 			}, 0);
-			var hoursPerDay = _this.props.match.params.hours / 7;
+			var hoursPerDay = _this.props.match.params.hours / 5;
 			var daysLeft = totalHoursLeft / hoursPerDay;
 			return _react2.default.createElement(
 				'div',
@@ -1885,6 +1954,7 @@ var Timeline = function (_React$Component) {
 	}, {
 		key: 'componentDidMount',
 		value: function componentDidMount() {
+			_reactGa2.default.pageview(window.location.pathname + window.location.search);
 			document.title = "CodingPhase.com | Timeline";
 			(adsbygoogle = window.adsbygoogle || []).push({});
 		}
@@ -1992,7 +2062,7 @@ exports.default = Timeline;
 
 /***/ }),
 
-/***/ 41:
+/***/ 42:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2003,15 +2073,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.categoriesData = exports.timelineData = exports.coursesData = undefined;
 
-var _coursesData = __webpack_require__(124);
+var _coursesData = __webpack_require__(125);
 
 var _coursesData2 = _interopRequireDefault(_coursesData);
 
-var _timelineData = __webpack_require__(125);
+var _timelineData = __webpack_require__(126);
 
 var _timelineData2 = _interopRequireDefault(_timelineData);
 
-var _categoriesData = __webpack_require__(123);
+var _categoriesData = __webpack_require__(124);
 
 var _categoriesData2 = _interopRequireDefault(_categoriesData);
 
@@ -2023,4 +2093,4 @@ exports.categoriesData = _categoriesData2.default;
 
 /***/ })
 
-},[127]);
+},[128]);

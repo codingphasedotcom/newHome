@@ -1,9 +1,12 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import {coursesData} from '../../data/index.js'
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-37043736-10');
 
 export default class SingleCourse extends React.Component {
 	componentDidMount(){
+		ReactGA.pageview(window.location.pathname + window.location.search);
 		const { match, location, history } = this.props
     document.title = `CodingPhase.com | ${match.params.course}`;
   }

@@ -4,9 +4,12 @@ import {
   Route,
   Link
 } from 'react-router-dom'
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-37043736-10');
 
 export default class Home extends React.Component {
   componentDidMount(){
+    ReactGA.pageview(window.location.pathname + window.location.search);
     document.title = "CodingPhase.com | Welcome";
   }
   render(){
@@ -14,18 +17,19 @@ export default class Home extends React.Component {
     return (
       <div className="content-area home">
 
-        <div className="content item-a">
+        <a href="https://www.youtube.com/watch?v=YR3cFC3FDek" target="new" className="content item-a">
           <div className="video-background">
             <div className="video-foreground">
-              <iframe id="homevideo" src="https://www.youtube.com/embed/45MSF6VmGcc?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
+              <iframe id="homevideo" src="https://www.youtube.com/embed/YR3cFC3FDek?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
-          <h4>New Episode</h4>
-          <h1>How To Dream Big But Stay Grounded</h1>
-          <h3>WATCH <i className="fab fa-youtube"></i></h3>
 
+            <h4>New Episode</h4>
+            <h1>Portfolio Review #6</h1>
+            <h3>WATCH <i className="fab fa-youtube"></i></h3>
 
-        </div>
+        </a>
+
         <a href="/courses/react-quick-and-easy" className="content item-b">
           <h4>Javascript</h4>
           <h3>React Quick and Easy</h3>

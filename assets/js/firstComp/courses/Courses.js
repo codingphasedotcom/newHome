@@ -4,6 +4,8 @@ import {
   Route,
   Link
 } from 'react-router-dom'
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-37043736-10');
 import {coursesData, categoriesData} from '../data/index.js'
 
 export default class Courses extends React.Component {
@@ -18,7 +20,9 @@ export default class Courses extends React.Component {
     }
   }
   componentDidMount(){
+    ReactGA.pageview(window.location.pathname + window.location.search);
     document.title = "CodingPhase.com | All Courses";
+
   }
   componentWillMount(){
 
@@ -96,9 +100,9 @@ export default class Courses extends React.Component {
         <div className="thumb" style={{
           "backgroundImage": `url("${course.imgs.thumbnail}")`
         }}>
-        <Link exact to={`/courses/${course.slug}`} activeClassName="active">
+        <a href={`/courses/${course.slug}`} >
           <div className='vig'></div>
-        </Link>
+        </a>
           <h3>WATCH <i className="fab fa-youtube"></i></h3>
         </div>
         <div className="title">
@@ -135,6 +139,7 @@ export default class Courses extends React.Component {
 
               </div>
             </div>
+            {/*
             <div className="filter">
               <label>Type</label>
               <div className="select">
@@ -151,6 +156,7 @@ export default class Courses extends React.Component {
               </div>
 
             </div>
+            */}
           </div>
 
         </div>

@@ -9,8 +9,6 @@ import Timeline from './pages/Timeline.js'
 import Courses from './courses/Courses.js'
 import SingleCourse from './courses/items/SingleCourse.js'
 import Gear from './gear/Gear.js'
-import ReactGA from 'react-ga';
-ReactGA.initialize('UA-37043736-10');
 
 
 export default class App extends React.Component {
@@ -21,9 +19,7 @@ export default class App extends React.Component {
     }
     this.clickedMobile = this.clickedMobile.bind(this)
   }
-  componentDidMount() {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }
+
   clickedMobile(){
     this.setState({
       mobileMenu: !this.state.mobileMenu
@@ -43,7 +39,7 @@ export default class App extends React.Component {
         </div>
         <div className={`mobile-menu ${(this.state.mobileMenu) ? 'active': ''}`}>
           <NavLink exact to="/" activeClassName="active" onClick={this.clickedMobile}>
-            <i className="fa fa-fire"></i>
+            <i className="fas fa-fire"></i>
             <span className="text">
               CodingPhase
             </span>
@@ -87,50 +83,49 @@ export default class App extends React.Component {
             </span>
           </NavLink>
         </div>
-
         <div className="layout">
 
           <div className="sidemenu">
             <NavLink exact to="/" activeClassName="active">
-              <i className="fa-code"></i>
+              <i className="fas fa-fire"></i>
               <span className="text">
                 CodingPhase
               </span>
             </NavLink>
             <NavLink  to="/courses" activeClassName="active">
-              <i className="fa-language" aria-hidden="true"></i>
+              <i className="fa fa-book" aria-hidden="true"></i>
               <span className="text">
-                Courses
+                COURSES
               </span>
             </NavLink>
             <NavLink exact to="/timeline" activeClassName="active">
-              <i className="fa-timeline"></i>
+              <i className="far fa-address-card"></i>
               <span className="text">
                 Timeline
               </span>
             </NavLink>
             <a href="https://codingphase.teachable.com/courses/enrolled">
-              <i className="fa-team"></i>
+              <i className="fas fa-home"></i>
               <span className="text">
                 Members Area
               </span>
             </a>
             <a href="https://discordapp.com/invite/weTKutq" target="new">
-              <i className="fa-chat"></i>
+              <i className="far fa-comments"></i>
               <span className="text">
-                Chat
+                CHAT
               </span>
             </a>
 
 
             <a href="https://youtube.com/CodingPhase" target="new">
-              <i className="fa-youtube"></i>
+              <i className="fas fa-tv"></i>
               <span className="text">
-                Channel
+                CHANNEL
               </span>
             </a>
             <NavLink exact to="/settings" activeClassName="active">
-              <i className="fa-settings"></i>
+              <i className="fas fa-sliders-h"></i>
               <span className="text">
                 Settings
               </span>
