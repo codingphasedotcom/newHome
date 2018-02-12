@@ -1,10 +1,6 @@
 webpackJsonp([0],{
 
-<<<<<<< HEAD
-/***/ 118:
-=======
-/***/ 120:
->>>>>>> master
+/***/ 119:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22,43 +18,23 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(22);
 
-<<<<<<< HEAD
-var _Home = __webpack_require__(127);
+var _Home = __webpack_require__(128);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _Timeline = __webpack_require__(128);
+var _Timeline = __webpack_require__(129);
 
 var _Timeline2 = _interopRequireDefault(_Timeline);
 
-var _Courses = __webpack_require__(120);
+var _Courses = __webpack_require__(121);
 
 var _Courses2 = _interopRequireDefault(_Courses);
 
-var _SingleCourse = __webpack_require__(121);
+var _SingleCourse = __webpack_require__(122);
 
 var _SingleCourse2 = _interopRequireDefault(_SingleCourse);
 
-var _Gear = __webpack_require__(125);
-=======
-var _Home = __webpack_require__(129);
-
-var _Home2 = _interopRequireDefault(_Home);
-
-var _Timeline = __webpack_require__(130);
-
-var _Timeline2 = _interopRequireDefault(_Timeline);
-
-var _Courses = __webpack_require__(122);
-
-var _Courses2 = _interopRequireDefault(_Courses);
-
-var _SingleCourse = __webpack_require__(123);
-
-var _SingleCourse2 = _interopRequireDefault(_SingleCourse);
-
-var _Gear = __webpack_require__(127);
->>>>>>> master
+var _Gear = __webpack_require__(126);
 
 var _Gear2 = _interopRequireDefault(_Gear);
 
@@ -282,11 +258,7 @@ exports.default = App;
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 120:
-=======
-/***/ 122:
->>>>>>> master
+/***/ 121:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -537,11 +509,7 @@ exports.default = Courses;
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 121:
-=======
-/***/ 123:
->>>>>>> master
+/***/ 122:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -796,11 +764,7 @@ exports.default = SingleCourse;
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 122:
-=======
-/***/ 124:
->>>>>>> master
+/***/ 123:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -815,11 +779,7 @@ exports.default = timelineData;
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 123:
-=======
-/***/ 125:
->>>>>>> master
+/***/ 124:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1324,11 +1284,7 @@ exports.default = coursesData;
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 124:
-=======
-/***/ 126:
->>>>>>> master
+/***/ 125:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1486,11 +1442,7 @@ exports.default = timelineData;
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 125:
-=======
-/***/ 127:
->>>>>>> master
+/***/ 126:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1543,11 +1495,7 @@ exports.default = Gear;
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 126:
-=======
-/***/ 128:
->>>>>>> master
+/***/ 127:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1561,11 +1509,7 @@ var _reactDom = __webpack_require__(41);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-<<<<<<< HEAD
-var _App = __webpack_require__(118);
-=======
-var _App = __webpack_require__(120);
->>>>>>> master
+var _App = __webpack_require__(119);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -1577,11 +1521,7 @@ _reactDom2.default.render(_react2.default.createElement(_App2.default, null), ro
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 127:
-=======
-/***/ 129:
->>>>>>> master
+/***/ 128:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1773,11 +1713,7 @@ exports.default = Home;
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 128:
-=======
-/***/ 130:
->>>>>>> master
+/***/ 129:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1797,11 +1733,7 @@ var _reactRouterDom = __webpack_require__(22);
 
 var _index = __webpack_require__(42);
 
-<<<<<<< HEAD
-var _immutabilityHelper = __webpack_require__(151);
-=======
-var _immutabilityHelper = __webpack_require__(153);
->>>>>>> master
+var _immutabilityHelper = __webpack_require__(152);
 
 var _immutabilityHelper2 = _interopRequireDefault(_immutabilityHelper);
 
@@ -2170,27 +2102,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.categoriesData = exports.timelineData = exports.coursesData = undefined;
 
-<<<<<<< HEAD
-var _coursesData = __webpack_require__(123);
+var _coursesData = __webpack_require__(124);
 
 var _coursesData2 = _interopRequireDefault(_coursesData);
 
-var _timelineData = __webpack_require__(124);
+var _timelineData = __webpack_require__(125);
 
 var _timelineData2 = _interopRequireDefault(_timelineData);
 
-var _categoriesData = __webpack_require__(122);
-=======
-var _coursesData = __webpack_require__(125);
-
-var _coursesData2 = _interopRequireDefault(_coursesData);
-
-var _timelineData = __webpack_require__(126);
-
-var _timelineData2 = _interopRequireDefault(_timelineData);
-
-var _categoriesData = __webpack_require__(124);
->>>>>>> master
+var _categoriesData = __webpack_require__(123);
 
 var _categoriesData2 = _interopRequireDefault(_categoriesData);
 
@@ -2202,8 +2122,4 @@ exports.categoriesData = _categoriesData2.default;
 
 /***/ })
 
-<<<<<<< HEAD
-},[126]);
-=======
-},[128]);
->>>>>>> master
+},[127]);
