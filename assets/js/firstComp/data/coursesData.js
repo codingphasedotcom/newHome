@@ -26,9 +26,9 @@ const coursesData = [
 		},
 		imgs: {
 			top:
-				'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://www.filepicker.io/api/file/rVfFx266SdqwAdXgWavp',
+				'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/nEeS9uvsROWb1mKHQAXg',
 			thumbnail:
-				'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/EIjWpAGpQOGJXmBGzJvt',
+				'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/nEeS9uvsROWb1mKHQAXg',
 			extra: 'https://www.filepicker.io/api/file/FLqG3OQsSayfGXQWIllc'
 		}
 	},
