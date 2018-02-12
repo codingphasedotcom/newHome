@@ -17,15 +17,15 @@ export default class Home extends React.Component {
     return (
       <div className="content-area home">
 
-        <a href="https://www.youtube.com/watch?v=QdW2ZITTNs0" target="new" className="content item-a">
+        <a href="https://www.youtube.com/watch?v=bYLM_vB9Lpw" target="new" className="content item-a">
           <div className="video-background">
             <div className="video-foreground">
-              <iframe id="homevideo" src="https://www.youtube.com/embed/QdW2ZITTNs0?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
+              <iframe id="homevideo" src="https://www.youtube.com/embed/bYLM_vB9Lpw?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
 
             <h4>New Episode</h4>
-            <h1>What Projects Can You Use?</h1>
+            <h1>Why you should quit your job to become a developer?</h1>
             <h3>WATCH <i className="fab fa-youtube"></i></h3>
 
         </a>
