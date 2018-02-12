@@ -73,7 +73,7 @@
 
   .item-e {
     grid-column: 4/5;
-    background-image: linear-gradient(135deg,rgba(14, 20, 41,.7) 0,rgba(14, 20, 41,.7) 100%),url("https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/RX9eR6VTrKKkdIak3Xmr");
+    background-image: linear-gradient(135deg,rgba(14, 20, 41,.7) 0,rgba(14, 20, 41,.7) 100%),url("https://www.filepicker.io/api/file/nEeS9uvsROWb1mKHQAXg");
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
@@ -462,7 +462,6 @@
 
     .item-b {
       grid-column: 1/2;
-      background-image: linear-gradient(135deg,rgba(14, 20, 41,.7) 0,rgba(14, 20, 41,.7) 100%),url("https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/RX9eR6VTrKKkdIak3Xmr");
       background-repeat: no-repeat;
       background-position: center center;
       -webkit-background-size: cover;
@@ -473,7 +472,6 @@
 
     .item-c {
       grid-column: 2/3;
-      background-image: linear-gradient(135deg,rgba(14, 20, 41,.7) 0,rgba(14, 20, 41,.7) 100%),url("https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/KUH9GZUR5yU0o9Svs7TK");
       background-repeat: no-repeat;
       background-position: center center;
       -webkit-background-size: cover;
@@ -493,7 +491,6 @@
 
     .item-e {
       grid-column: 4/5;
-      background-image: linear-gradient(135deg,rgba(14, 20, 41,.7) 0,rgba(14, 20, 41,.7) 100%),url("https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/RX9eR6VTrKKkdIak3Xmr");
       background-repeat: no-repeat;
       background-position: center center;
       -webkit-background-size: cover;
@@ -513,7 +510,6 @@
 
     .item-g {
       grid-column: 1/3;
-      background: linear-gradient(135deg,rgba(101, 22, 231,.7) 0,rgba(101, 22, 231,.7) 100%),url("/img/jannia-scholarship.jpg") no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -548,6 +544,17 @@
       -o-background-size: cover;
       background-size: cover;
       // transform: translate3d(0, 50px, 0);
+    }
+
+    .item-a,
+    .item-b,
+    .item-c,
+    .item-d,
+    .item-e,
+    .item-f,
+    .item-g,
+    .item-h {
+      min-height: auto;
     }
   }
 }

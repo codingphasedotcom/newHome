@@ -1,5 +1,38 @@
 const coursesData = [
 	{
+		title: 'Gulp - Web Developer Starter Kit',
+    price: 10,
+    hours: 4,
+    type: 'premium',
+		category: ['Javascript'],
+		slug: 'gulp-web-developer-starter-kit',
+		url: 'https://codingphase.teachable.com/p/gulp-web-developer-starter-kit',
+		description: {
+			short:
+				'',
+			long:
+				'',
+			target: [
+				'Any developer who is looking to learn gulp and webpack.',
+				'Junior Developers',
+			],
+			learn: [
+				'Learn to setup gulp',
+				'Compile sass to css',
+				'work with task runner',
+				'Use webpack as a module bundler'
+			],
+			requirements: ['HTML', 'CSS', 'Very basic JavaScript']
+		},
+		imgs: {
+			top:
+				'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://www.filepicker.io/api/file/rVfFx266SdqwAdXgWavp',
+			thumbnail:
+				'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/EIjWpAGpQOGJXmBGzJvt',
+			extra: 'https://www.filepicker.io/api/file/FLqG3OQsSayfGXQWIllc'
+		}
+	},
+	{
 		title: 'JQUERY – A Beginners best friend',
     price: 25,
     hours: 4,

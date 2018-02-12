@@ -11,6 +11,10 @@ $nav-item-color: #ffe4cd;
 /*
  * Globals
  */
+* {
+  box-sizing: border-box;
+}
+
 body,
 html {
   font-family: $font-stack;
