@@ -46,7 +46,7 @@ html {
 .layout {
   display: grid;
   grid-template-columns: 2;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 9.375rem 1fr;
   height: 100vh;
 
   .sidemenu {
@@ -155,7 +155,7 @@ html {
   .layout {
     display: grid;
     grid-template-columns: 2;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 9.375rem 1fr;
   }
 
   .mobile-btn,
