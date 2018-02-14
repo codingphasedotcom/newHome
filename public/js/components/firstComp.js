@@ -789,6 +789,26 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 var coursesData = [{
+	title: 'Learn React by Building a Craigslist Clone',
+	price: 30,
+	hours: 10,
+	type: 'premium',
+	category: ['Javascript'],
+	slug: 'learn-react-by-building-a-craigslist-clone',
+	url: 'https://codingphase.teachable.com/p/learn-react-by-building-a-craigslist-clone',
+	description: {
+		short: '',
+		long: '',
+		target: ['Any developer who is looking to learn React.', 'Any level of developer'],
+		learn: ['React Router', 'Passing props to components', 'Single Page Apps', 'Production Ready Applications'],
+		requirements: ['HTML', 'CSS', 'Very basic JavaScript', 'React']
+	},
+	imgs: {
+		top: 'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://www.filepicker.io/api/file/aXJiG9uTXm0MdSpswLfg',
+		thumbnail: 'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://www.filepicker.io/api/file/aXJiG9uTXm0MdSpswLfg',
+		extra: 'https://www.filepicker.io/api/file/FLqG3OQsSayfGXQWIllc'
+	}
+}, {
 	title: 'Gulp - Web Developer Starter Kit',
 	price: 10,
 	hours: 4,
@@ -1319,16 +1339,20 @@ var timelineData = {
     hours: 2,
     status: false
   }, {
+    title: "Future Proof Javascript",
+    hours: 10,
+    status: false
+  }, {
+    title: "Gulp - Web Developer Starter Kit",
+    hours: 2,
+    status: false
+  }, {
     title: "SideProject: Build a static site portfolio",
     hours: 7,
     status: false
   }, {
     title: "Pug Template Engine",
     hours: 2,
-    status: false
-  }, {
-    title: "Future Proof Javascript",
-    hours: 10,
     status: false
   }, {
     title: "JQuery",
@@ -1349,6 +1373,10 @@ var timelineData = {
   }, {
     title: "React JS Quick and Easy",
     hours: 8,
+    status: false
+  }, {
+    title: "Learn React by Building a Craigslist Clone",
+    hours: 15,
     status: false
   }],
   backend: [{
@@ -1393,16 +1421,20 @@ var timelineData = {
     hours: 2,
     status: false
   }, {
+    title: "Future Proof Javascript",
+    hours: 10,
+    status: false
+  }, {
+    title: "Gulp - Web Developer Starter Kit",
+    hours: 2,
+    status: false
+  }, {
     title: "SideProject: Build a static site portfolio",
     hours: 7,
     status: false
   }, {
     title: "Pug Template Engine",
     hours: 2,
-    status: false
-  }, {
-    title: "Future Proof Javascript",
-    hours: 10,
     status: false
   }, {
     title: "JQuery",
