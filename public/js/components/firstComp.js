@@ -1970,7 +1970,7 @@ var Timeline = function (_React$Component) {
 				_react2.default.createElement(
 					'h4',
 					null,
-					'At you pace per week it will take you'
+					'At your pace per week it will take you'
 				),
 				_react2.default.createElement(
 					'h1',
