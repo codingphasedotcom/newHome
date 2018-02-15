@@ -180,6 +180,11 @@ const timelineData = {
       status: false
     },
     {
+      title: "Learn React by Building a Craigslist Clone",
+      hours: 15,
+      status: false
+    },
+    {
       title: "PHP 7 and Laravel Master Course",
       hours: 20,
       status: false

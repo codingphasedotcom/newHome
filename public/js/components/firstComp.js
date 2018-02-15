@@ -1457,6 +1457,10 @@ var timelineData = {
     hours: 8,
     status: false
   }, {
+    title: "Learn React by Building a Craigslist Clone",
+    hours: 15,
+    status: false
+  }, {
     title: "PHP 7 and Laravel Master Course",
     hours: 20,
     status: false
@@ -1981,6 +1985,29 @@ var Timeline = function (_React$Component) {
 					'h4',
 					null,
 					'days'
+				),
+				_react2.default.createElement(
+					'h4',
+					null,
+					'hours per week: ',
+					_this.props.match.params.hours
+				),
+				_react2.default.createElement(
+					'h4',
+					null,
+					'hours per day: ',
+					hoursPerDay
+				),
+				_react2.default.createElement(
+					'h4',
+					null,
+					'Average user studies: 5 days per week'
+				),
+				_react2.default.createElement(
+					'h4',
+					null,
+					'Total hours left to study: ',
+					totalHoursLeft
 				)
 			);
 		};
