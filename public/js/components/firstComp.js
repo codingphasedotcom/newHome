@@ -1,10 +1,6 @@
 webpackJsonp([0],{
 
-<<<<<<< HEAD
-/***/ 118:
-=======
-/***/ 120:
->>>>>>> upstream/master
+/***/ 119:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22,43 +18,23 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(22);
 
-<<<<<<< HEAD
-var _Home = __webpack_require__(127);
+var _Home = __webpack_require__(128);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _Timeline = __webpack_require__(128);
+var _Timeline = __webpack_require__(129);
 
 var _Timeline2 = _interopRequireDefault(_Timeline);
 
-var _Courses = __webpack_require__(120);
+var _Courses = __webpack_require__(121);
 
 var _Courses2 = _interopRequireDefault(_Courses);
 
-var _SingleCourse = __webpack_require__(121);
+var _SingleCourse = __webpack_require__(122);
 
 var _SingleCourse2 = _interopRequireDefault(_SingleCourse);
 
-var _Gear = __webpack_require__(125);
-=======
-var _Home = __webpack_require__(129);
-
-var _Home2 = _interopRequireDefault(_Home);
-
-var _Timeline = __webpack_require__(130);
-
-var _Timeline2 = _interopRequireDefault(_Timeline);
-
-var _Courses = __webpack_require__(122);
-
-var _Courses2 = _interopRequireDefault(_Courses);
-
-var _SingleCourse = __webpack_require__(123);
-
-var _SingleCourse2 = _interopRequireDefault(_SingleCourse);
-
-var _Gear = __webpack_require__(127);
->>>>>>> upstream/master
+var _Gear = __webpack_require__(126);
 
 var _Gear2 = _interopRequireDefault(_Gear);
 
@@ -282,11 +258,7 @@ exports.default = App;
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 120:
-=======
-/***/ 122:
->>>>>>> upstream/master
+/***/ 121:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -537,11 +509,7 @@ exports.default = Courses;
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 121:
-=======
-/***/ 123:
->>>>>>> upstream/master
+/***/ 122:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -796,11 +764,7 @@ exports.default = SingleCourse;
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 122:
-=======
-/***/ 124:
->>>>>>> upstream/master
+/***/ 123:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -815,11 +779,7 @@ exports.default = timelineData;
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 123:
-=======
-/***/ 125:
->>>>>>> upstream/master
+/***/ 124:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -837,8 +797,8 @@ var coursesData = [{
 	slug: 'learn-react-by-building-a-craigslist-clone',
 	url: 'https://codingphase.teachable.com/p/learn-react-by-building-a-craigslist-clone',
 	description: {
-		short: '',
-		long: '',
+		short: 'Learn the number one framework which will guarantee you get that dream job. React is a skill that will put you more in demand in the modern web development industry. Learn React by building one big application which is improved throughout the course. (Craigslist)',
+		long: 'One of the most important projects for a developer is to build a craiglist app because of the many different skills that are needed to create it. For developers this is a must have app for your portfolio.',
 		target: ['Any developer who is looking to learn React.', 'Any level of developer'],
 		learn: ['React Router', 'Passing props to components', 'Single Page Apps', 'Production Ready Applications'],
 		requirements: ['HTML', 'CSS', 'Very basic JavaScript', 'React']
@@ -857,8 +817,8 @@ var coursesData = [{
 	slug: 'gulp-web-developer-starter-kit',
 	url: 'https://codingphase.teachable.com/p/gulp-web-developer-starter-kit',
 	description: {
-		short: '',
-		long: '',
+		short: 'Gulp is a web toolkit designed to help speed up your workflow so you can stop focussing on repetitive tasks and help you get back to building your websites.',
+		long: 'You are going to learn how to speed up and automate web development with Gulp. Once you have completed this Gulp course you will be able to use Gulp Js to automate tasks and create your own websites from scratch.',
 		target: ['Any developer who is looking to learn gulp and webpack.', 'Junior Developers'],
 		learn: ['Learn to setup gulp', 'Compile sass to css', 'work with task runner', 'Use webpack as a module bundler'],
 		requirements: ['HTML', 'CSS', 'Very basic JavaScript']
@@ -881,7 +841,7 @@ var coursesData = [{
 		long: 'Developers find jQuery intuitive and easy to learn – this library is built on shorter, simpler code, after all. Developers don’t have to be experts in programming or Web Design to create great styles for their sites. Any developer who has spent hours coding and testing CSS files will surely appreciate the simple implementation that jQuery brings to the table.',
 		target: ['Any developer who is looking to learn jQuery by building real apps.', 'Junior Developers & Senior Developers', 'Designers', 'Content Editors'],
 		learn: ['JQuery Events', 'DOM Manipulation', 'Learning AJAX', 'Signup now if you want to write better looking code!'],
-		requirements: ['Basic HTML', 'Basic CSS', 'Very basic JavaScript']
+		requirements: ['HTML', 'CSS', 'Very basic JavaScript']
 	},
 	imgs: {
 		top: 'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://www.filepicker.io/api/file/7hYPQ7CaRtmAAYnDhS5U',
@@ -960,8 +920,8 @@ var coursesData = [{
 		short: '',
 		long: 'This course teaches you how to write HTML with the PUG template engine and make your work flow faster. PUG used to be known as JADE but due to legal reasons it was renamed to PUG.',
 		target: ['All levels of developers from beginner to experts', 'Anyone who is bored with HTML and want to make it fun again!'],
-		learn: ['Learn how to write loops', 'Render template on node js', 'Export it to HTML'],
-		requirements: ['Basic understanding / knowledge of a computer', 'Some experience with HTML', 'Basic JavaScript']
+		learn: ['Learn how to write loops', 'render template on node js', 'export it to HTML'],
+		requirements: ['Basic understanding / knowledge of a computer', 'Some experience with HTML', 'basic JavaScript']
 	},
 	imgs: {
 		top: 'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://www.filepicker.io/api/file/sr5ACgqQc6KzC1MNKK7L',
@@ -980,7 +940,7 @@ var coursesData = [{
 		short: 'This course is great for beginners and experienced developers who are wanting to enhance their portfolio. Take this course and build a dashboard with HTML and CSS.',
 		long: 'Have you taken a Web Development course but now you don’t what projects to build? Look no more this is one of those projects that will test your skills as a developer. Learn HTML and some advance features in CSS with SASS.',
 		target: ['Anyone that wants to practice what they learn'],
-		learn: ['Basic HTML', 'Basic CSS', 'Basic SASS'],
+		learn: ['HTML', 'CSS', 'SASS'],
 		requirements: ['Basic understanding / knowledge of a computer', 'Some experience with HTML']
 	},
 	imgs: {
@@ -1081,7 +1041,7 @@ var coursesData = [{
 		long: '',
 		target: ['Developers who want to build their own portfolio.Developers who want to build their own portfolio.', 'Signup now if you want to create your own portfolio and learn how to deploy it onto the web!'],
 		learn: ['You will learn how to create your own Resume in HTML & CSS', 'You build out your own Homepage, Portfolio page & contact page'],
-		requirements: ['Basic understanding / knowledge of a computer', 'Basic HTML', 'Basic SASS', 'CSS GRIDS and Flexbox']
+		requirements: ['Basic understanding / knowledge of a computer', 'HTML', 'SASS', 'CSS GRIDS and Flexbox']
 	},
 	imgs: {
 		top: 'https://www.filepicker.io/api/file/JnUnZHCoQka0cLJxkyWk',
@@ -1100,8 +1060,8 @@ var coursesData = [{
 		short: 'Have you been coding CSS for a sometime and are familiar with it? Well take your CSS skills a step further with this advanced course.',
 		long: 'CSS can be a nightmare when trying to master it, and maintaining large projects. Having a good grasp on the fundamentals and advance CSS is an absolute must for serious front-end developers.',
 		target: ['Any advanced CSS developer looking to further your skills', 'Signup now if you want to write better looking code!'],
-		learn: ['You will learn about complex CSS', 'Advanced responsive design techniques', 'Flexbox and grids'],
-		requirements: ['Basic understanding / knowledge of a computer', 'Basic HTML', 'Basic SASS', 'Basic CSS']
+		learn: ['You will learn about complex CSS', 'advanced responsive design techniques', 'flexbox and grids'],
+		requirements: ['Basic understanding / knowledge of a computer', 'HTML', 'SASS', 'CSS']
 	},
 	imgs: {
 		top: 'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://www.filepicker.io/api/file/NhiYPJFHRTJrENtaaW7T',
@@ -1160,7 +1120,7 @@ var coursesData = [{
 		short: 'Will teach you how to build your own personal restaurant web app! First you will start off by installing all the necessary tools & setting up your project. You will then build the restaurant layout, with HTML & CSS.',
 		long: 'Put everything you know as a web developer to build this awesome site. Do you want to have that standout piece in your portfolio? Then enrol in this course now & get started.',
 		target: ['Developers who want to build their own restaurant app.', 'Signup now if you want to write better looking code!'],
-		learn: ['How to render to the page', 'Passing down props', 'Local state and global state', 'Styling the restaurant app'],
+		learn: ['How to render to the page', 'Passing down props', 'local state and global state', 'Styling the restaurant app'],
 		requirements: ['Basic understanding / knowledge of a computer', 'Basic HTML & CSS', 'Basic JavaScript knowledge']
 	},
 	imgs: {
@@ -1240,7 +1200,7 @@ var coursesData = [{
 		short: 'JavaScript is one of the most popular web languages which continues to evolve every year. With this course you will learn all the basic syntax of JavaScript and when to use them with real life examples.',
 		long: 'We start with the fundamentals of JavaScript and work our way up to advanced programming without relying on any libraries or frameworks at all. Whether you are a beginner or an establish programmer there is something for everyone.',
 		target: ['Any developer who is looking to learn the basics JavaScript', 'Beginner Developers', 'Signup now if you want to write better looking code!'],
-		learn: ['Fundamentals of basic programming', 'Prototypical inheritance', 'Function constructors', 'Prototype'],
+		learn: ['Fundamentals of basic programming', 'prototypical inheritance', 'function constructors', 'prototype'],
 		requirements: ['Basic understanding / knowledge of a computer']
 	},
 	imgs: {
@@ -1344,11 +1304,7 @@ exports.default = coursesData;
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 124:
-=======
-/***/ 126:
->>>>>>> upstream/master
+/***/ 125:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1375,22 +1331,11 @@ var timelineData = {
     hours: 2,
     status: false
   }, {
-    title: "Animations for Developers",
-    hours: 3,
-    status: false
-  }, {
     title: "SASS Like a pro",
     hours: 2,
     status: false
   }, {
     title: "HTML & CSS: Dashboard",
-<<<<<<< HEAD
-    hours: 3,
-    status: false
-  }, {
-    title: "Build a Portfolio",
-    hours: 8,
-=======
     hours: 2,
     status: false
   }, {
@@ -1404,7 +1349,6 @@ var timelineData = {
   }, {
     title: "SideProject: Build a static site portfolio",
     hours: 7,
->>>>>>> upstream/master
     status: false
   }, {
     title: "Pug Template Engine",
@@ -1481,13 +1425,6 @@ var timelineData = {
     hours: 10,
     status: false
   }, {
-<<<<<<< HEAD
-    title: "Learn ESNEXT - ES6, ES7, ES8",
-    hours: 20,
-    status: false
-  }, {
-    title: "Hyperapp JS",
-=======
     title: "Gulp - Web Developer Starter Kit",
     hours: 2,
     status: false
@@ -1497,7 +1434,6 @@ var timelineData = {
     status: false
   }, {
     title: "Pug Template Engine",
->>>>>>> upstream/master
     hours: 2,
     status: false
   }, {
@@ -1542,11 +1478,7 @@ exports.default = timelineData;
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 125:
-=======
-/***/ 127:
->>>>>>> upstream/master
+/***/ 126:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1599,11 +1531,7 @@ exports.default = Gear;
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 126:
-=======
-/***/ 128:
->>>>>>> upstream/master
+/***/ 127:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1617,11 +1545,7 @@ var _reactDom = __webpack_require__(41);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-<<<<<<< HEAD
-var _App = __webpack_require__(118);
-=======
-var _App = __webpack_require__(120);
->>>>>>> upstream/master
+var _App = __webpack_require__(119);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -1633,11 +1557,7 @@ _reactDom2.default.render(_react2.default.createElement(_App2.default, null), ro
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 127:
-=======
-/***/ 129:
->>>>>>> upstream/master
+/***/ 128:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1829,11 +1749,7 @@ exports.default = Home;
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ 128:
-=======
-/***/ 130:
->>>>>>> upstream/master
+/***/ 129:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1853,11 +1769,7 @@ var _reactRouterDom = __webpack_require__(22);
 
 var _index = __webpack_require__(42);
 
-<<<<<<< HEAD
-var _immutabilityHelper = __webpack_require__(151);
-=======
-var _immutabilityHelper = __webpack_require__(153);
->>>>>>> upstream/master
+var _immutabilityHelper = __webpack_require__(152);
 
 var _immutabilityHelper2 = _interopRequireDefault(_immutabilityHelper);
 
@@ -2249,27 +2161,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.categoriesData = exports.timelineData = exports.coursesData = undefined;
 
-<<<<<<< HEAD
-var _coursesData = __webpack_require__(123);
+var _coursesData = __webpack_require__(124);
 
 var _coursesData2 = _interopRequireDefault(_coursesData);
 
-var _timelineData = __webpack_require__(124);
+var _timelineData = __webpack_require__(125);
 
 var _timelineData2 = _interopRequireDefault(_timelineData);
 
-var _categoriesData = __webpack_require__(122);
-=======
-var _coursesData = __webpack_require__(125);
-
-var _coursesData2 = _interopRequireDefault(_coursesData);
-
-var _timelineData = __webpack_require__(126);
-
-var _timelineData2 = _interopRequireDefault(_timelineData);
-
-var _categoriesData = __webpack_require__(124);
->>>>>>> upstream/master
+var _categoriesData = __webpack_require__(123);
 
 var _categoriesData2 = _interopRequireDefault(_categoriesData);
 
@@ -2281,8 +2181,4 @@ exports.categoriesData = _categoriesData2.default;
 
 /***/ })
 
-<<<<<<< HEAD
-},[126]);
-=======
-},[128]);
->>>>>>> upstream/master
+},[127]);
