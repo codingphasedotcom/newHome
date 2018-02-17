@@ -789,6 +789,26 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 var coursesData = [{
+	title: 'Learn React by Building a Craigslist Clone',
+	price: 30,
+	hours: 10,
+	type: 'premium',
+	category: ['Javascript'],
+	slug: 'learn-react-by-building-a-craigslist-clone',
+	url: 'https://codingphase.teachable.com/p/learn-react-by-building-a-craigslist-clone',
+	description: {
+		short: '',
+		long: '',
+		target: ['Any developer who is looking to learn React.', 'Any level of developer'],
+		learn: ['React Router', 'Passing props to components', 'Single Page Apps', 'Production Ready Applications'],
+		requirements: ['HTML', 'CSS', 'Very basic JavaScript', 'React']
+	},
+	imgs: {
+		top: 'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://www.filepicker.io/api/file/aXJiG9uTXm0MdSpswLfg',
+		thumbnail: 'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://www.filepicker.io/api/file/aXJiG9uTXm0MdSpswLfg',
+		extra: 'https://www.filepicker.io/api/file/FLqG3OQsSayfGXQWIllc'
+	}
+}, {
 	title: 'Gulp - Web Developer Starter Kit',
 	price: 10,
 	hours: 4,
@@ -804,8 +824,8 @@ var coursesData = [{
 		requirements: ['HTML', 'CSS', 'Very basic JavaScript']
 	},
 	imgs: {
-		top: 'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://www.filepicker.io/api/file/rVfFx266SdqwAdXgWavp',
-		thumbnail: 'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/EIjWpAGpQOGJXmBGzJvt',
+		top: 'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/nEeS9uvsROWb1mKHQAXg',
+		thumbnail: 'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/nEeS9uvsROWb1mKHQAXg',
 		extra: 'https://www.filepicker.io/api/file/FLqG3OQsSayfGXQWIllc'
 	}
 }, {
@@ -1319,16 +1339,20 @@ var timelineData = {
     hours: 2,
     status: false
   }, {
+    title: "Future Proof Javascript",
+    hours: 10,
+    status: false
+  }, {
+    title: "Gulp - Web Developer Starter Kit",
+    hours: 2,
+    status: false
+  }, {
     title: "SideProject: Build a static site portfolio",
     hours: 7,
     status: false
   }, {
     title: "Pug Template Engine",
     hours: 2,
-    status: false
-  }, {
-    title: "Future Proof Javascript",
-    hours: 10,
     status: false
   }, {
     title: "JQuery",
@@ -1349,6 +1373,10 @@ var timelineData = {
   }, {
     title: "React JS Quick and Easy",
     hours: 8,
+    status: false
+  }, {
+    title: "Learn React by Building a Craigslist Clone",
+    hours: 15,
     status: false
   }],
   backend: [{
@@ -1393,16 +1421,20 @@ var timelineData = {
     hours: 2,
     status: false
   }, {
+    title: "Future Proof Javascript",
+    hours: 10,
+    status: false
+  }, {
+    title: "Gulp - Web Developer Starter Kit",
+    hours: 2,
+    status: false
+  }, {
     title: "SideProject: Build a static site portfolio",
     hours: 7,
     status: false
   }, {
     title: "Pug Template Engine",
     hours: 2,
-    status: false
-  }, {
-    title: "Future Proof Javascript",
-    hours: 10,
     status: false
   }, {
     title: "JQuery",
@@ -1423,6 +1455,10 @@ var timelineData = {
   }, {
     title: "React JS Quick and Easy",
     hours: 8,
+    status: false
+  }, {
+    title: "Learn React by Building a Craigslist Clone",
+    hours: 15,
     status: false
   }, {
     title: "PHP 7 and Laravel Master Course",
@@ -1581,14 +1617,14 @@ var Home = function (_React$Component) {
         { className: 'content-area home' },
         _react2.default.createElement(
           'a',
-          { href: 'https://www.youtube.com/watch?v=QdW2ZITTNs0', target: 'new', className: 'content item-a' },
+          { href: 'https://www.youtube.com/watch?v=bYLM_vB9Lpw', target: 'new', className: 'content item-a' },
           _react2.default.createElement(
             'div',
             { className: 'video-background' },
             _react2.default.createElement(
               'div',
               { className: 'video-foreground' },
-              _react2.default.createElement('iframe', { id: 'homevideo', src: 'https://www.youtube.com/embed/QdW2ZITTNs0?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=W0LHTWG-UmQ', frameborder: '0', allowfullscreen: true })
+              _react2.default.createElement('iframe', { id: 'homevideo', src: 'https://www.youtube.com/embed/bYLM_vB9Lpw?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=W0LHTWG-UmQ', frameborder: '0', allowfullscreen: true })
             )
           ),
           _react2.default.createElement(
@@ -1599,7 +1635,7 @@ var Home = function (_React$Component) {
           _react2.default.createElement(
             'h1',
             null,
-            'What Projects Can You Use?'
+            'Why you should quit your job to become a developer?'
           ),
           _react2.default.createElement(
             'h3',
@@ -1938,7 +1974,7 @@ var Timeline = function (_React$Component) {
 				_react2.default.createElement(
 					'h4',
 					null,
-					'At you pace per week it will take you'
+					'At your pace per week it will take you'
 				),
 				_react2.default.createElement(
 					'h1',
@@ -1949,6 +1985,29 @@ var Timeline = function (_React$Component) {
 					'h4',
 					null,
 					'days'
+				),
+				_react2.default.createElement(
+					'h4',
+					null,
+					'hours per week: ',
+					_this.props.match.params.hours
+				),
+				_react2.default.createElement(
+					'h4',
+					null,
+					'hours per day: ',
+					hoursPerDay
+				),
+				_react2.default.createElement(
+					'h4',
+					null,
+					'Average user studies: 5 days per week'
+				),
+				_react2.default.createElement(
+					'h4',
+					null,
+					'Total hours left to study: ',
+					totalHoursLeft
 				)
 			);
 		};
@@ -2122,4 +2181,5 @@ exports.categoriesData = _categoriesData2.default;
 
 /***/ })
 
-},[127]);
+
+},[128]);

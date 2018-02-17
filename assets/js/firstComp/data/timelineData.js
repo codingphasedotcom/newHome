@@ -31,6 +31,16 @@ const timelineData = {
       status: false
     },
     {
+      title: "Future Proof Javascript",
+      hours: 10,
+      status: false
+    },
+    {
+      title: "Gulp - Web Developer Starter Kit",
+      hours: 2,
+      status: false
+    },
+    {
       title: "SideProject: Build a static site portfolio",
       hours: 7,
       status: false
@@ -38,11 +48,6 @@ const timelineData = {
     {
       title: "Pug Template Engine",
       hours: 2,
-      status: false
-    },
-    {
-      title: "Future Proof Javascript",
-      hours: 10,
       status: false
     },
     {
@@ -70,6 +75,11 @@ const timelineData = {
       hours: 8,
       status: false
     },
+    {
+      title: "Learn React by Building a Craigslist Clone",
+      hours: 15,
+      status: false
+    }
   ],
   backend: [
     {
@@ -125,6 +135,16 @@ const timelineData = {
       status: false
     },
     {
+      title: "Future Proof Javascript",
+      hours: 10,
+      status: false
+    },
+    {
+      title: "Gulp - Web Developer Starter Kit",
+      hours: 2,
+      status: false
+    },
+    {
       title: "SideProject: Build a static site portfolio",
       hours: 7,
       status: false
@@ -132,11 +152,6 @@ const timelineData = {
     {
       title: "Pug Template Engine",
       hours: 2,
-      status: false
-    },
-    {
-      title: "Future Proof Javascript",
-      hours: 10,
       status: false
     },
     {
@@ -162,6 +177,11 @@ const timelineData = {
     {
       title: "React JS Quick and Easy",
       hours: 8,
+      status: false
+    },
+    {
+      title: "Learn React by Building a Craigslist Clone",
+      hours: 15,
       status: false
     },
     {
