@@ -2,6 +2,8 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import { timelineData } from '../data/index.js'
 import update from 'immutability-helper'
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-37043736-10');
 
 export default class Timeline extends React.Component {
 	constructor(props) {
@@ -30,6 +32,7 @@ export default class Timeline extends React.Component {
 		}
 	}
 	componentDidMount(){
+		ReactGA.pageview(window.location.pathname + window.location.search);
 		document.title = "CodingPhase.com | Timeline";
     (adsbygoogle = window.adsbygoogle || []).push({});
   }
@@ -229,12 +232,16 @@ export default class Timeline extends React.Component {
 		})
 		console.log(totalHoursArr)
 		let totalHoursLeft = totalHoursArr.reduce((a,b) => a + b, 0 )
-			let hoursPerDay = (this.props.match.params.hours / 7)
+			let hoursPerDay = (this.props.match.params.hours / 5)
 			let daysLeft = (totalHoursLeft/ hoursPerDay)
 			return (<div className="totalDays">
 				<h4>At you pace per week it will take you</h4>
 				<h1>{daysLeft.toFixed(2)}</h1>
 				<h4>days</h4>
+				<h4>hours per week: {this.props.match.params.hours}</h4>
+				<h4>hours per day: {hoursPerDay}</h4>
+				<h4>Average user studies: 5 days per week</h4>
+				<h4>Total hours left to study: {totalHoursLeft}</h4>
 				</div>)
 	}
 	render() {

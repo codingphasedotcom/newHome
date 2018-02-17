@@ -9,8 +9,6 @@ import Timeline from './pages/Timeline.js'
 import Courses from './courses/Courses.js'
 import SingleCourse from './courses/items/SingleCourse.js'
 import Gear from './gear/Gear.js'
-import ReactGA from 'react-ga';
-ReactGA.initialize('UA-37043736-10');
 
 
 export default class App extends React.Component {
@@ -21,9 +19,7 @@ export default class App extends React.Component {
     }
     this.clickedMobile = this.clickedMobile.bind(this)
   }
-  componentDidMount() {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }
+
   clickedMobile(){
     this.setState({
       mobileMenu: !this.state.mobileMenu

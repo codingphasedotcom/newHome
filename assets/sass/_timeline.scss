@@ -26,7 +26,7 @@
       }
 
       p {
-        max-width: 500px;
+        // max-width: 500px;
         line-height: 2;
         font-weight: 400;
         margin-bottom: 1rem;
@@ -43,7 +43,8 @@
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
         justify-items: center;
-        width: 600px;
+        width: 100%;
+        max-width: 600px;
         padding: 40px 0;
         grid-gap: 20px;
 
@@ -179,8 +180,136 @@
     }
   }
 }
-@media only screen and (min-width: 0) {}
+@media only screen and (min-width: 0) {
+  .content-area.timeline {
+    .course-bg {
+      padding: 0;
+
+      .quick-info {
+        padding: 0;
+
+        h1 {
+          font-size: 3rem;
+        }
+
+        p {}
+      }
+
+      .choose-path {
+        ul {
+          grid-template-columns: 1fr;
+
+          li {
+            &:hover {}
+          }
+        }
+      }
+    }
+  }
+
+  #hoursPerWeek {
+    h3 {}
+
+    .hours {
+      width: 100%;
+    }
+
+    .next-btn {}
+  }
+
+  .splitter {
+    grid-template-columns: 1fr;
+
+    .totalDays {
+      h4 {}
+
+      h1 {}
+    }
+  }
+
+  #FrontEnd {
+    h4 {}
+
+    .item {
+      .course {
+        &:hover {}
+      }
+
+      .check {
+        &.completed {
+          &:hover {}
+        }
+
+        &:hover {}
+      }
+    }
+  }
+}
 @media only screen and (min-width: 451px) {}
 @media only screen and (min-width: 768px) {}
-@media only screen and (min-width: 1008px) {}
+@media only screen and (min-width: 1008px) {
+  .content-area.timeline {
+    .course-bg {
+      padding: 0;
+
+      .quick-info {
+        padding: 40px;
+
+        h1 {
+          font-size: 3rem;
+        }
+
+        p {}
+      }
+
+      .choose-path {
+        ul {
+          grid-template-columns: 1fr 1fr 1fr;
+
+          li {
+            &:hover {}
+          }
+        }
+      }
+    }
+  }
+
+  #hoursPerWeek {
+    h3 {}
+
+    .hours {
+      width: 100%;
+    }
+
+    .next-btn {}
+  }
+
+  .splitter {
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .totalDays {
+      h4 {}
+
+      h1 {}
+    }
+  }
+
+  #FrontEnd {
+    h4 {}
+
+    .item {
+      .course {
+        &:hover {}
+      }
+
+      .check {
+        &.completed {
+          &:hover {}
+        }
+
+        &:hover {}
+      }
+    }
+  }
+}
 @media only screen and (min-width: 1300px) {}
