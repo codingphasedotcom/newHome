@@ -9,9 +9,9 @@ const coursesData = [
 		url: 'https://codingphase.teachable.com/p/learn-react-by-building-a-craigslist-clone',
 		description: {
 			short:
-				'',
+				'Learn the number one framework which will guarantee you get that dream job. React is a skill that will put you more in demand in the modern web development industry. Learn React by building one big application which is improved throughout the course. (Craigslist),
 			long:
-				'',
+				'One of the most important projects for a developer is to build a craiglist app because of the many different skills that are needed to create it. For developers this is a must have app for your portfolio.',
 			target: [
 				'Any developer who is looking to learn React.',
 				'Any level of developer',
@@ -42,9 +42,9 @@ const coursesData = [
 		url: 'https://codingphase.teachable.com/p/gulp-web-developer-starter-kit',
 		description: {
 			short:
-				'',
+				''Gulp is a web toolkit designed to help speed up your workflow so you can stop focussing on repetitive tasks and help you get back to building your websites.',
 			long:
-				'',
+				'You are going to learn how to speed up and automate web development with Gulp. Once you have completed this Gulp course you will be able to use Gulp Js to automate tasks and create your own websites from scratch.',
 			target: [
 				'Any developer who is looking to learn gulp and webpack.',
 				'Junior Developers',
