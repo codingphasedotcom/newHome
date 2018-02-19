@@ -1,5 +1,71 @@
 const coursesData = [
 	{
+		title: 'Learn React by Building a Craigslist Clone',
+    price: 30,
+    hours: 10,
+    type: 'premium',
+		category: ['Javascript'],
+		slug: 'learn-react-by-building-a-craigslist-clone',
+		url: 'https://codingphase.teachable.com/p/learn-react-by-building-a-craigslist-clone',
+		description: {
+			short:
+				'',
+			long:
+				'',
+			target: [
+				'Any developer who is looking to learn React.',
+				'Any level of developer',
+			],
+			learn: [
+				'React Router',
+				'Passing props to components',
+				'Single Page Apps',
+				'Production Ready Applications'
+			],
+			requirements: ['HTML', 'CSS', 'Very basic JavaScript', 'React']
+		},
+		imgs: {
+			top:
+				'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://www.filepicker.io/api/file/aXJiG9uTXm0MdSpswLfg',
+			thumbnail:
+				'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://www.filepicker.io/api/file/aXJiG9uTXm0MdSpswLfg',
+			extra: 'https://www.filepicker.io/api/file/FLqG3OQsSayfGXQWIllc'
+		}
+	},
+	{
+		title: 'Gulp - Web Developer Starter Kit',
+    price: 10,
+    hours: 4,
+    type: 'premium',
+		category: ['Javascript'],
+		slug: 'gulp-web-developer-starter-kit',
+		url: 'https://codingphase.teachable.com/p/gulp-web-developer-starter-kit',
+		description: {
+			short:
+				'',
+			long:
+				'',
+			target: [
+				'Any developer who is looking to learn gulp and webpack.',
+				'Junior Developers',
+			],
+			learn: [
+				'Learn to setup gulp',
+				'Compile sass to css',
+				'work with task runner',
+				'Use webpack as a module bundler'
+			],
+			requirements: ['HTML', 'CSS', 'Very basic JavaScript']
+		},
+		imgs: {
+			top:
+				'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/nEeS9uvsROWb1mKHQAXg',
+			thumbnail:
+				'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/nEeS9uvsROWb1mKHQAXg',
+			extra: 'https://www.filepicker.io/api/file/FLqG3OQsSayfGXQWIllc'
+		}
+	},
+	{
 		title: 'JQUERY – A Beginners best friend',
     price: 25,
     hours: 4,
