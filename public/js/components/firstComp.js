@@ -789,6 +789,26 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 var coursesData = [{
+	title: 'Learn Python',
+	price: 30,
+	hours: 10,
+	type: 'premium',
+	category: ['Javascript'],
+	slug: 'learn-python',
+	url: 'https://codingphase.teachable.com/p/learn-python-for-high-paying-job',
+	description: {
+		short: '',
+		long: '',
+		target: ['Any developer who is looking to learn Python.', 'Any level of developer'],
+		learn: ['Python Syntax', 'Object Oriented Python', 'Learn By Building Projects', 'Production Ready Applications'],
+		requirements: ['HTML', 'CSS', 'Very basic JavaScript', 'React']
+	},
+	imgs: {
+		top: 'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://www.filepicker.io/api/file/LTmPBa3wSjimveGcsI1P',
+		thumbnail: 'https://www.filepicker.io/api/file/jDUkOMFVQdCZOw7YdPpm',
+		extra: 'https://www.filepicker.io/api/file/FLqG3OQsSayfGXQWIllc'
+	}
+}, {
 	title: 'Learn React by Building a Craigslist Clone',
 	price: 30,
 	hours: 10,
