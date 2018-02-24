@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 119:
+/***/ 120:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16,25 +16,25 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(23);
 
-var _Home = __webpack_require__(128);
+var _Home = __webpack_require__(129);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _Timeline = __webpack_require__(129);
+var _Timeline = __webpack_require__(130);
 
 var _Timeline2 = _interopRequireDefault(_Timeline);
 
-var _Courses = __webpack_require__(121);
+var _Courses = __webpack_require__(122);
 
 var _Courses2 = _interopRequireDefault(_Courses);
 
-var _SingleCourse = __webpack_require__(122);
+var _SingleCourse = __webpack_require__(123);
 
 var _SingleCourse2 = _interopRequireDefault(_SingleCourse);
 
-var _Gear = __webpack_require__(126);
+var _Gear = __webpack_require__(127);
 
 var _Gear2 = _interopRequireDefault(_Gear);
 
@@ -258,7 +258,7 @@ exports.default = App;
 
 /***/ }),
 
-/***/ 121:
+/***/ 122:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -274,7 +274,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(23);
 
 var _reactGa = __webpack_require__(39);
 
@@ -509,7 +509,7 @@ exports.default = Courses;
 
 /***/ }),
 
-/***/ 122:
+/***/ 123:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -525,7 +525,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(23);
 
 var _index = __webpack_require__(42);
 
@@ -764,7 +764,7 @@ exports.default = SingleCourse;
 
 /***/ }),
 
-/***/ 123:
+/***/ 124:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -779,7 +779,7 @@ exports.default = timelineData;
 
 /***/ }),
 
-/***/ 124:
+/***/ 125:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -789,6 +789,26 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 var coursesData = [{
+	title: 'Learn Python',
+	price: 30,
+	hours: 10,
+	type: 'premium',
+	category: ['Javascript'],
+	slug: 'learn-python',
+	url: 'https://codingphase.teachable.com/p/learn-python-for-high-paying-job',
+	description: {
+		short: '',
+		long: '',
+		target: ['Any developer who is looking to learn Python.', 'Any level of developer'],
+		learn: ['Python Syntax', 'Object Oriented Python', 'Learn By Building Projects', 'Production Ready Applications'],
+		requirements: ['HTML', 'CSS', 'Very basic JavaScript', 'React']
+	},
+	imgs: {
+		top: 'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://www.filepicker.io/api/file/LTmPBa3wSjimveGcsI1P',
+		thumbnail: 'https://www.filepicker.io/api/file/jDUkOMFVQdCZOw7YdPpm',
+		extra: 'https://www.filepicker.io/api/file/FLqG3OQsSayfGXQWIllc'
+	}
+}, {
 	title: 'Learn React by Building a Craigslist Clone',
 	price: 30,
 	hours: 10,
@@ -797,8 +817,8 @@ var coursesData = [{
 	slug: 'learn-react-by-building-a-craigslist-clone',
 	url: 'https://codingphase.teachable.com/p/learn-react-by-building-a-craigslist-clone',
 	description: {
-		short: 'Learn the number one framework which will guarantee you get that dream job. React is a skill that will put you more in demand in the modern web development industry. Learn React by building one big application which is improved throughout the course. (Craigslist)',
-		long: 'One of the most important projects for a developer is to build a craiglist app because of the many different skills that are needed to create it. For developers this is a must have app for your portfolio.',
+		short: '',
+		long: '',
 		target: ['Any developer who is looking to learn React.', 'Any level of developer'],
 		learn: ['React Router', 'Passing props to components', 'Single Page Apps', 'Production Ready Applications'],
 		requirements: ['HTML', 'CSS', 'Very basic JavaScript', 'React']
@@ -817,8 +837,8 @@ var coursesData = [{
 	slug: 'gulp-web-developer-starter-kit',
 	url: 'https://codingphase.teachable.com/p/gulp-web-developer-starter-kit',
 	description: {
-		short: 'Gulp is a web toolkit designed to help speed up your workflow so you can stop focussing on repetitive tasks and help you get back to building your websites.',
-		long: 'You are going to learn how to speed up and automate web development with Gulp. Once you have completed this Gulp course you will be able to use Gulp Js to automate tasks and create your own websites from scratch.',
+		short: '',
+		long: '',
 		target: ['Any developer who is looking to learn gulp and webpack.', 'Junior Developers'],
 		learn: ['Learn to setup gulp', 'Compile sass to css', 'work with task runner', 'Use webpack as a module bundler'],
 		requirements: ['HTML', 'CSS', 'Very basic JavaScript']
@@ -1304,7 +1324,7 @@ exports.default = coursesData;
 
 /***/ }),
 
-/***/ 125:
+/***/ 126:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1478,7 +1498,7 @@ exports.default = timelineData;
 
 /***/ }),
 
-/***/ 126:
+/***/ 127:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1494,7 +1514,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1531,7 +1551,7 @@ exports.default = Gear;
 
 /***/ }),
 
-/***/ 127:
+/***/ 128:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1545,7 +1565,7 @@ var _reactDom = __webpack_require__(41);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _App = __webpack_require__(119);
+var _App = __webpack_require__(120);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -1557,7 +1577,7 @@ _reactDom2.default.render(_react2.default.createElement(_App2.default, null), ro
 
 /***/ }),
 
-/***/ 128:
+/***/ 129:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1573,7 +1593,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(23);
 
 var _reactGa = __webpack_require__(39);
 
@@ -1749,7 +1769,7 @@ exports.default = Home;
 
 /***/ }),
 
-/***/ 129:
+/***/ 130:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1765,11 +1785,11 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(22);
+var _reactRouterDom = __webpack_require__(23);
 
 var _index = __webpack_require__(42);
 
-var _immutabilityHelper = __webpack_require__(152);
+var _immutabilityHelper = __webpack_require__(153);
 
 var _immutabilityHelper2 = _interopRequireDefault(_immutabilityHelper);
 
@@ -1974,7 +1994,7 @@ var Timeline = function (_React$Component) {
 				_react2.default.createElement(
 					'h4',
 					null,
-					'At you pace per week it will take you'
+					'At your pace per week it will take you'
 				),
 				_react2.default.createElement(
 					'h1',
@@ -2161,15 +2181,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.categoriesData = exports.timelineData = exports.coursesData = undefined;
 
-var _coursesData = __webpack_require__(124);
+var _coursesData = __webpack_require__(125);
 
 var _coursesData2 = _interopRequireDefault(_coursesData);
 
-var _timelineData = __webpack_require__(125);
+var _timelineData = __webpack_require__(126);
 
 var _timelineData2 = _interopRequireDefault(_timelineData);
 
-var _categoriesData = __webpack_require__(123);
+var _categoriesData = __webpack_require__(124);
 
 var _categoriesData2 = _interopRequireDefault(_categoriesData);
 
@@ -2181,4 +2201,4 @@ exports.categoriesData = _categoriesData2.default;
 
 /***/ })
 
-},[127]);
+},[128]);

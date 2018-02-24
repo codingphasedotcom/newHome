@@ -200,6 +200,7 @@
           grid-template-columns: 1fr;
 
           li {
+            min-width: 255px;
             &:hover {}
           }
         }
@@ -245,7 +246,22 @@
     }
   }
 }
-@media only screen and (min-width: 451px) {}
+@media only screen and (min-width: 451px) {
+  .content-area.timeline {
+    .course-bg {
+      .choose-path {
+        ul {
+          grid-template-columns: 1fr;
+
+          li {
+            min-width: 0px;
+            &:hover {}
+          }
+        }
+      }
+    }
+  }
+}
 @media only screen and (min-width: 768px) {}
 @media only screen and (min-width: 1008px) {
   .content-area.timeline {
