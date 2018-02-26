@@ -1,7 +1,7 @@
 const coursesData = [
 	{
 		title: 'Learn Python',
-    price: 30,
+    price: 0,
     hours: 10,
     type: 'premium',
 		category: ['Javascript'],
