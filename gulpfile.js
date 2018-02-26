@@ -30,19 +30,21 @@ gulp.task('styles', () => {
 
 gulp.task('browser-sync', ['styles'], function () {
   // THIS IS FOR SITUATIONS WHEN YOU HAVE ANOTHER SERVER RUNNING
-  // browserSync.init({
-  //   proxy: {
-  //     target: 'localhost:3000', // can be [virtual host, sub-directory, localhost with port]
-  //     ws: true // enables websockets
-  //   },
-  //   serveStatic: ['.', './public']
-  // })
-
   browserSync.init({
-        server: './public',
-        notify: false,
-        open: false //change this to true if you want the broser to open automatically 
-    });
+    proxy: {
+      target: 'localhost:5000', // can be [virtual host, sub-directory, localhost with port]
+      ws: true // enables websockets
+    },
+    notify: false,
+    open: false,
+    serveStatic: ['.', './public']
+  })
+
+  // browserSync.init({
+  //       server: './public',
+  //       notify: false,
+  //       open: false //change this to true if you want the broser to open automatically
+  //   });
 })
 
 gulp.task('webpack', () => {
