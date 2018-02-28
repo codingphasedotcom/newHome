@@ -9,9 +9,9 @@ const coursesData = [
 		url: 'https://codingphase.teachable.com/p/learn-python-for-high-paying-job',
 		description: {
 			short:
-				'',
+				'If you are looking to learn the Python programming language with a hands on approach you have come to the right place. This comprehensive, in depth course is going to teach you everything which you need to know about Python.',
 			long:
-				'',
+				'Go from learning the basics of Python to advance which will be broken down in a way which is easy to understand. We will teach you real life examples which can be applied in real world applications.',
 			target: [
 				'Any developer who is looking to learn Python.',
 				'Any level of developer',
@@ -21,6 +21,7 @@ const coursesData = [
 				'Object Oriented Python',
 				'Learn By Building Projects',
 				'Production Ready Applications'
+				'Signup now if you want to write better looking code!'
 			],
 			requirements: ['HTML', 'CSS', 'Very basic JavaScript', 'React']
 		},
@@ -42,9 +43,9 @@ const coursesData = [
 		url: 'https://codingphase.teachable.com/p/learn-react-by-building-a-craigslist-clone',
 		description: {
 			short:
-				'',
+				'Learn the number one framework which will guarantee you get that dream job. React is a skill that will put you more in demand in the modern web development industry. Learn React by building one big application which is improved throughout the course. (Craigslist)',
 			long:
-				'',
+				'One of the most important projects for a developer is to build a craiglist app because of the many different skills that are needed to create it. For developers this is a must have app for your portfolio.',
 			target: [
 				'Any developer who is looking to learn React.',
 				'Any level of developer',
@@ -54,6 +55,7 @@ const coursesData = [
 				'Passing props to components',
 				'Single Page Apps',
 				'Production Ready Applications'
+				'Signup now if you want to write better looking code!'
 			],
 			requirements: ['HTML', 'CSS', 'Very basic JavaScript', 'React']
 		},
@@ -75,9 +77,9 @@ const coursesData = [
 		url: 'https://codingphase.teachable.com/p/gulp-web-developer-starter-kit',
 		description: {
 			short:
-				'',
+				'Gulp is a web toolkit designed to help speed up your workflow so you can stop focussing on repetitive tasks and help you get back to building your websites.',
 			long:
-				'',
+				'You are going to learn how to speed up and automate web development with Gulp. Once you have completed this Gulp course you will be able to use Gulp Js to automate tasks and create your own websites from scratch.',
 			target: [
 				'Any developer who is looking to learn gulp and webpack.',
 				'Junior Developers',
@@ -87,6 +89,7 @@ const coursesData = [
 				'Compile sass to css',
 				'work with task runner',
 				'Use webpack as a module bundler'
+				'Signup now if you want to write better looking code!'
 			],
 			requirements: ['HTML', 'CSS', 'Very basic JavaScript']
 		},
@@ -340,9 +343,9 @@ const coursesData = [
         'Signup now if you want to write better looking code!'
 			],
 			learn: [
-				'Rails basics', 'build a blog', 'Controllers', 'Rendering Views', 'Models'
+				'Rails basics', 'Build a blog', 'Controllers', 'Rendering Views', 'Models'
 			],
-			requirements: ['Basic understanding / knowledge of a computer', 'Basics of HTML' , 'Basics of CSS']
+			requirements: ['Basic understanding / Knowledge of a computer', 'Basics of HTML' , 'Basics of CSS']
 		},
 		imgs: {
       top:
@@ -400,7 +403,7 @@ const coursesData = [
 			learn: [
 				'Basic fundamentals of Rudy', 'Object Oriented Programming', 'Installing Ruby and Rails on your computer'
 			],
-			requirements: ['Basic understanding / knowledge of a computer']
+			requirements: ['Basic understanding / Knowledge of a computer']
 		},
 		imgs: {
       top:
@@ -456,7 +459,7 @@ const coursesData = [
 				'Any advanced CSS developer looking to further your skills', 'Signup now if you want to write better looking code!'
 			],
 			learn: [
-				'You will learn about complex CSS', 'advanced responsive design techniques', 'flexbox and grids'
+				'You will learn about complex CSS', 'Advanced responsive design techniques', 'Flexbox and grids'
 			],
 			requirements: ['Basic understanding / knowledge of a computer', 'HTML', 'SASS', 'CSS']
 		},
