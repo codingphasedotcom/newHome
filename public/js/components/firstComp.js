@@ -793,7 +793,7 @@ var coursesData = [{
 	price: 0,
 	hours: 10,
 	type: 'premium',
-	category: ['Javascript'],
+	category: ['Python'],
 	slug: 'learn-python',
 	url: 'https://codingphase.teachable.com/p/learn-python-for-high-paying-job',
 	description: {

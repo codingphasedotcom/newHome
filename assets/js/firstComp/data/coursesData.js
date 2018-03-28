@@ -1,10 +1,44 @@
 const coursesData = [
 	{
+		title: 'Learn Node JS - Javascript Fullstack',
+    price: 30,
+    hours: 10,
+    type: 'premium',
+		category: ['Javascript'],
+		slug: 'learn-node-js',
+		url: 'https://codingphase.teachable.com/p/node-adonis-js-javascript-fullstack-course',
+		description: {
+			short:
+				'Learn Node JS the right way with a structure that will help you not only understand node but also learn how web development works.',
+			long:
+				'',
+			target: [
+				'Any developer who is looking to learn Node.',
+				'Great for developers that love Javascript',
+				'Any level of developer',
+			],
+			learn: [
+				'Learn to build full applications with Node',
+				'Understand the basics of MySQL',
+				'Learn By Building Projects',
+				'Production Ready Applications'
+			],
+			requirements: ['HTML', 'CSS', 'Very basic JavaScript', 'ES6']
+		},
+		imgs: {
+			top:
+				'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://www.filepicker.io/api/file/4dhwfogkTKifToz3LNvt',
+			thumbnail:
+				'https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://www.filepicker.io/api/file/4dhwfogkTKifToz3LNvt',
+			extra: 'https://www.filepicker.io/api/file/FLqG3OQsSayfGXQWIllc'
+		}
+	},
+	{
 		title: 'Learn Python',
     price: 0,
     hours: 10,
     type: 'premium',
-		category: ['Javascript'],
+		category: ['Python'],
 		slug: 'learn-python',
 		url: 'https://codingphase.teachable.com/p/learn-python-for-high-paying-job',
 		description: {
@@ -22,7 +56,7 @@ const coursesData = [
 				'Learn By Building Projects',
 				'Production Ready Applications'
 			],
-			requirements: ['HTML', 'CSS', 'Very basic JavaScript', 'React']
+			requirements: ['none']
 		},
 		imgs: {
 			top:
