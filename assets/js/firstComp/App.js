@@ -124,12 +124,12 @@ export default class App extends React.Component {
                 CHANNEL
               </span>
             </a>
-            <NavLink exact to="/settings" activeClassName="active">
-              <i className="fas fa-sliders-h"></i>
+            <a href="https://teespring.com/stores/codingphase">
+              <i className="fas fa-shopping-cart"></i>
               <span className="text">
-                Settings
+                Merchandise
               </span>
-            </NavLink>
+            </a>
           </div>
 
           <Route exact path="/" component={Home}/>

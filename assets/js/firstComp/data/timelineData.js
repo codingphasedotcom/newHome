@@ -199,6 +199,11 @@ const timelineData = {
       hours: 7,
       status: false
     },
+    {
+      title: "Learn Node JS - Javascript Fullstack",
+      hours: 20,
+      status: false
+    }
   ]
 }
 export default timelineData;

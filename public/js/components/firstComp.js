@@ -229,13 +229,13 @@ var App = function (_React$Component) {
                 )
               ),
               _react2.default.createElement(
-                _reactRouterDom.NavLink,
-                { exact: true, to: '/settings', activeClassName: 'active' },
-                _react2.default.createElement('i', { className: 'fas fa-sliders-h' }),
+                'a',
+                { href: 'https://teespring.com/stores/codingphase' },
+                _react2.default.createElement('i', { className: 'fas fa-shopping-cart' }),
                 _react2.default.createElement(
                   'span',
                   { className: 'text' },
-                  'Settings'
+                  'Merchandise'
                 )
               )
             ),
@@ -1511,6 +1511,10 @@ var timelineData = {
   }, {
     title: "Ruby on Rails",
     hours: 7,
+    status: false
+  }, {
+    title: "Learn Node JS - Javascript Fullstack",
+    hours: 20,
     status: false
   }]
 };
